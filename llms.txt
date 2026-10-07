@@ -1,0 +1,50 @@
+# Marketing Mondays
+
+> Marketing Mondays is a Singapore community of marketers and a weekly YouTube show. Each episode decodes one real signal, such as a competitor's play, a shift in what audiences want or a winning campaign, and turns it into a clear takeaway. It was founded and is hosted by SOMIN, its technology partner and the data engine behind every episode.
+
+- Website: https://mondays.marketing/
+- Contact: ask@mondays.marketing
+- Based in: Singapore
+- Technology partner: SOMIN (https://somin.ai/), an AI audience-research and creative-intelligence platform
+- YouTube: https://www.youtube.com/channel/UCGb61UzazCWgJ8H_1_oy5Kg
+
+## What we do
+- The weekly show: Every Monday on YouTube at @marketing-mondays, one real signal decoded in minutes. Real competitor and audience evidence, a clear takeaway, no hot takes.
+- In-person sessions: Invite-only panels and roundtables in Singapore, from Block71 to WeWork @ Battery Road. Small rooms, frank conversation and people who face the same decisions.
+- LinkedIn group: The Marketing Mondays Group is where episodes get argued with. Members share signals they have spotted and test their decodes with peers.
+- WhatsApp community: Marketing Mondays @ Block71 is where session news lands first. It is also a quick, informal line to peers when you need a second opinion.
+- Signal decoded articles: Each episode theme expanded into a practical article with frameworks and checklists. Built to be used in your team the same week.
+
+## Key pages
+- [Home](https://mondays.marketing/): Marketing Mondays: a Singapore community of marketers and a weekly YouTube show decoding one real market signal every Monday. Founded by SOMIN.
+- [Blog](https://mondays.marketing/blog/): ten articles
+- [Brand guidelines](https://mondays.marketing/brand/)
+
+## Articles
+- [The 2027 marketing team: smaller, faster, or obsolete?](https://mondays.marketing/blog/the-2027-marketing-team-smaller-faster-or-obsolete/): Signal decoded: what the 2027 marketing team looks like when AI agents take the busywork, and which human roles get more valuable, not less.
+- [The autopsy of a lost sale](https://mondays.marketing/blog/the-autopsy-of-a-lost-sale/): Signal decoded: how to run a blameless autopsy on a deal or customer you lost, and find the audience signal you missed before it cost you.
+- [AI's role in creative, media and brand marketing](https://mondays.marketing/blog/ai-role-in-creative-media-and-brand-marketing/): What we learned from the Marketing Mondays Block71 panel on AI in creative, media and brand, and the framework we still use to decide where AI leads.
+- [Vanity metrics: the numbers that make you feel good](https://mondays.marketing/blog/vanity-metrics-the-numbers-that-make-you-feel-good/): Signal decoded: why a 400% ROAS can hide a loss, how to spot vanity metrics in your reporting, and what to measure instead.
+- [Will AI replace marketers? A signal-based answer](https://mondays.marketing/blog/will-ai-replace-marketers/): Signal decoded: what the fear of AI replacement is really about, which marketing skills are rising in value, and a 30-day plan to get ahead.
+- [Marketer imposter syndrome: know it before you show it](https://mondays.marketing/blog/marketer-imposter-syndrome-know-it-before-you-show-it/): Signal decoded: why so many capable marketers feel like frauds, and how evidence and peers build confidence that does not need faking.
+- [Escaping the sea of sameness when everyone uses AI](https://mondays.marketing/blog/escaping-the-sea-of-sameness-with-ai/): Signal decoded: why generative AI is making brands sound alike, and how audience tensions and narrative help you stand apart.
+- [The one signal method: how we decode a Monday episode](https://mondays.marketing/blog/the-one-signal-method/): How Marketing Mondays picks one real market signal each week, decodes it in minutes and turns it into a takeaway you can use the same day.
+- [Media foresight: retail media, Gen Z and the next budget](https://mondays.marketing/blog/media-foresight-retail-media-and-gen-z/): Signal decoded: why many media plans lack foresight, what retail media networks and Gen Z segmentation change, and how to plan ahead.
+- [When AI answers replace the search results page](https://mondays.marketing/blog/when-ai-answers-replace-the-search-results-page/): Signal decoded: what generative AI answers mean for brand visibility, and how marketers can earn a place in ChatGPT, Gemini and AI Overviews.
+
+## FAQ
+- **What is Marketing Mondays?** Marketing Mondays is a Singapore community of marketers and a weekly YouTube show. Each Monday episode decodes one real market signal into a clear takeaway. The community meets in person at invite-only sessions and online through LinkedIn and WhatsApp. It was founded and is hosted by SOMIN.
+- **When is the next Marketing Mondays session?** Monday 12 October 2026, 4 to 7 PM, at WeWork @ Battery Road, MYP Centre #28-01, Singapore. The invite-only panel, The 2027 marketing team: smaller, faster, or obsolete?, features Aleks Farseev (SOMIN), Andy Gilroy (Cape.io) and Raj Parekh (Mediacorp), co-hosted with Cape.io.
+- **How do I join the community?** Email ask@mondays.marketing to request an invite. You can also subscribe to @marketing-mondays on YouTube and ask to join the LinkedIn Marketing Mondays Group and the WhatsApp community, Marketing Mondays @ Block71.
+- **Where can I watch the episodes?** Episodes are on YouTube at @marketing-mondays, a weekly shot of marketing intelligence brought to you by SOMIN. Each covers one competitor play, audience shift or winning campaign, decoded and made actionable.
+- **Who is Marketing Mondays for?** Marketers, founders and agency teams who want real signals rather than opinions, and a peer group to test ideas with. Sessions are aimed at practitioners and leaders in Singapore, while the show is open to anyone.
+- **Have there been past in-person sessions?** Yes. On Monday 24 February 2025 a three-speaker panel at Block71 Singapore explored AI's role in creative, media and brand marketing. Another Block71 session ran on 25 August 2026.
+
+## Sister companies
+- [Somonitor](https://somonitor.ai/): Always-on listening you can check
+- [Trafix](https://trafix.app/): Paid traffic, measured in profit
+- [AgentC](https://agentc.marketing/): Agents play. Humans conduct.
+- [GPT3 Marketing](https://gpt3.marketing/): Six years of AI content craft
+- [GPT5 Marketing](https://gpt5.marketing/): Marketing redesigned for reasoning models
+- [Mindfuse](https://mindfuse.sg/): Consumer psychology and culture, decoded for SEA
+- [SNMRush](https://snmrush.com/): Search, Neural answers, Mentions. One rush.

@@ -1,0 +1,945 @@
+# Marketing Mondays
+
+> Marketing Mondays is a Singapore community of marketers and a weekly YouTube show. Each episode decodes one real signal, such as a competitor's play, a shift in what audiences want or a winning campaign, and turns it into a clear takeaway. It was founded and is hosted by SOMIN, its technology partner and the data engine behind every episode.
+
+- Website: https://mondays.marketing/
+- Contact: ask@mondays.marketing
+- Based in: Singapore
+- Technology partner: SOMIN (https://somin.ai/), an AI audience-research and creative-intelligence platform
+- YouTube: https://www.youtube.com/channel/UCGb61UzazCWgJ8H_1_oy5Kg
+
+## What we do
+- The weekly show: Every Monday on YouTube at @marketing-mondays, one real signal decoded in minutes. Real competitor and audience evidence, a clear takeaway, no hot takes.
+- In-person sessions: Invite-only panels and roundtables in Singapore, from Block71 to WeWork @ Battery Road. Small rooms, frank conversation and people who face the same decisions.
+- LinkedIn group: The Marketing Mondays Group is where episodes get argued with. Members share signals they have spotted and test their decodes with peers.
+- WhatsApp community: Marketing Mondays @ Block71 is where session news lands first. It is also a quick, informal line to peers when you need a second opinion.
+- Signal decoded articles: Each episode theme expanded into a practical article with frameworks and checklists. Built to be used in your team the same week.
+
+## Key pages
+- [Home](https://mondays.marketing/): Marketing Mondays: a Singapore community of marketers and a weekly YouTube show decoding one real market signal every Monday. Founded by SOMIN.
+- [Blog](https://mondays.marketing/blog/): ten articles
+- [Brand guidelines](https://mondays.marketing/brand/)
+
+## Articles
+- [The 2027 marketing team: smaller, faster, or obsolete?](https://mondays.marketing/blog/the-2027-marketing-team-smaller-faster-or-obsolete/): Signal decoded: what the 2027 marketing team looks like when AI agents take the busywork, and which human roles get more valuable, not less.
+- [The autopsy of a lost sale](https://mondays.marketing/blog/the-autopsy-of-a-lost-sale/): Signal decoded: how to run a blameless autopsy on a deal or customer you lost, and find the audience signal you missed before it cost you.
+- [AI's role in creative, media and brand marketing](https://mondays.marketing/blog/ai-role-in-creative-media-and-brand-marketing/): What we learned from the Marketing Mondays Block71 panel on AI in creative, media and brand, and the framework we still use to decide where AI leads.
+- [Vanity metrics: the numbers that make you feel good](https://mondays.marketing/blog/vanity-metrics-the-numbers-that-make-you-feel-good/): Signal decoded: why a 400% ROAS can hide a loss, how to spot vanity metrics in your reporting, and what to measure instead.
+- [Will AI replace marketers? A signal-based answer](https://mondays.marketing/blog/will-ai-replace-marketers/): Signal decoded: what the fear of AI replacement is really about, which marketing skills are rising in value, and a 30-day plan to get ahead.
+- [Marketer imposter syndrome: know it before you show it](https://mondays.marketing/blog/marketer-imposter-syndrome-know-it-before-you-show-it/): Signal decoded: why so many capable marketers feel like frauds, and how evidence and peers build confidence that does not need faking.
+- [Escaping the sea of sameness when everyone uses AI](https://mondays.marketing/blog/escaping-the-sea-of-sameness-with-ai/): Signal decoded: why generative AI is making brands sound alike, and how audience tensions and narrative help you stand apart.
+- [The one signal method: how we decode a Monday episode](https://mondays.marketing/blog/the-one-signal-method/): How Marketing Mondays picks one real market signal each week, decodes it in minutes and turns it into a takeaway you can use the same day.
+- [Media foresight: retail media, Gen Z and the next budget](https://mondays.marketing/blog/media-foresight-retail-media-and-gen-z/): Signal decoded: why many media plans lack foresight, what retail media networks and Gen Z segmentation change, and how to plan ahead.
+- [When AI answers replace the search results page](https://mondays.marketing/blog/when-ai-answers-replace-the-search-results-page/): Signal decoded: what generative AI answers mean for brand visibility, and how marketers can earn a place in ChatGPT, Gemini and AI Overviews.
+
+## FAQ
+- **What is Marketing Mondays?** Marketing Mondays is a Singapore community of marketers and a weekly YouTube show. Each Monday episode decodes one real market signal into a clear takeaway. The community meets in person at invite-only sessions and online through LinkedIn and WhatsApp. It was founded and is hosted by SOMIN.
+- **When is the next Marketing Mondays session?** Monday 12 October 2026, 4 to 7 PM, at WeWork @ Battery Road, MYP Centre #28-01, Singapore. The invite-only panel, The 2027 marketing team: smaller, faster, or obsolete?, features Aleks Farseev (SOMIN), Andy Gilroy (Cape.io) and Raj Parekh (Mediacorp), co-hosted with Cape.io.
+- **How do I join the community?** Email ask@mondays.marketing to request an invite. You can also subscribe to @marketing-mondays on YouTube and ask to join the LinkedIn Marketing Mondays Group and the WhatsApp community, Marketing Mondays @ Block71.
+- **Where can I watch the episodes?** Episodes are on YouTube at @marketing-mondays, a weekly shot of marketing intelligence brought to you by SOMIN. Each covers one competitor play, audience shift or winning campaign, decoded and made actionable.
+- **Who is Marketing Mondays for?** Marketers, founders and agency teams who want real signals rather than opinions, and a peer group to test ideas with. Sessions are aimed at practitioners and leaders in Singapore, while the show is open to anyone.
+- **Have there been past in-person sessions?** Yes. On Monday 24 February 2025 a three-speaker panel at Block71 Singapore explored AI's role in creative, media and brand marketing. Another Block71 session ran on 25 August 2026.
+
+## Sister companies
+- [Somonitor](https://somonitor.ai/): Always-on listening you can check
+- [Trafix](https://trafix.app/): Paid traffic, measured in profit
+- [AgentC](https://agentc.marketing/): Agents play. Humans conduct.
+- [GPT3 Marketing](https://gpt3.marketing/): Six years of AI content craft
+- [GPT5 Marketing](https://gpt5.marketing/): Marketing redesigned for reasoning models
+- [Mindfuse](https://mindfuse.sg/): Consumer psychology and culture, decoded for SEA
+- [SNMRush](https://snmrush.com/): Search, Neural answers, Mentions. One rush.
+
+
+# Full articles
+
+
+# The 2027 marketing team: smaller, faster, or obsolete?
+URL: https://mondays.marketing/blog/the-2027-marketing-team-smaller-faster-or-obsolete/ · Published 2026-10-05
+
+The 2027 marketing team will be smaller in headcount on execution, faster in its decision loop, and anything but obsolete. AI agents will absorb research, versioning and reporting. What remains, and grows in value, is judgment: choosing which audience signal matters, which idea deserves budget, and when to say no to the machine.
+
+This is the question we are putting to a room of 20 marketing leaders on Monday 12 October 2026 at WeWork @ Battery Road, Singapore. The Marketing Mondays panel, co-hosted with Cape.io, brings together Aleks Farseev (Founder, SOMIN), Andy Gilroy (APAC lead, Cape.io) and Raj Parekh (VP, Head of Growth & Partnerships, Mediacorp). Before the room has its say, here is the signal as we read it, and the framework we will be testing against the panel.
+
+## Why is everyone asking whether the marketing team will shrink?
+
+Because the visible work of marketing is the work AI does fastest. Briefs, first drafts, resizing, campaign reports, competitor scans: these used to fill calendars, and they used to justify headcount. When an agent can turn a brief into forty variations before lunch, it is reasonable for a CFO to ask why the team looks the same as it did in 2023.
+
+The fear underneath the question is personal. In the conversations we listen to across the marketing community, the same tension keeps surfacing: perfectionism, the sense of being undervalued, and a quiet worry that AI will replace you before you have had a chance to prove you were worth keeping. That fear makes people defensive, and defensive teams redesign themselves badly. They either protect every role as it is or cut too deep and lose the people who knew why things worked.
+
+## What actually changes when agents join the team?
+
+Three things move at once, and they move at different speeds.
+
+- Production cost collapses. The marginal cost of another headline, cut-down or localised variant approaches zero. Volume stops being an advantage.
+
+- The bottleneck shifts to evidence. If you can make anything, the hard question becomes what you should make. Teams that cannot read audience signal quickly will drown in options.
+
+- Accountability concentrates. Fewer people sign off on more output. Each decision carries more weight, and each person needs more confidence in the evidence behind it.
+
+Agencies are already reorganising around this. Our sister brand AgentC (https://agentc.marketing/) runs research, creative and optimisation through AI agents while human strategists keep ownership of judgment. That split, machines on throughput and humans on direction, is the shape we expect in-house teams to copy.
+
+## So is the answer smaller, faster, or obsolete?
+
+Our position: smaller on execution, larger on sense-making, and faster in the loop between the two. Obsolete is the wrong word for the team; it is the right word for certain habits.
+
+Habits we think will not survive 2027:
+
+- Monthly reporting decks that describe what happened without saying what to do next.
+
+- Briefs written from opinion rather than from what real audiences are saying.
+
+- Creative approval by seniority instead of by evidence.
+
+- Measuring the team by volume shipped.
+
+Habits we think become essential:
+
+- A weekly review of one real audience or competitor signal, with a named owner and a decision.
+
+- Pre-testing ideas against audience response before money is committed.
+
+- Clear human sign-off points where an agent's output is checked against the evidence behind it.
+
+- Peer review outside the company, so the team is not marking its own homework.
+
+## What does a 2027 team chart look like?
+
+Here is a working model we will put in front of the panel. It is a starting point for debate, not a prescription.
+
+### The signal desk
+
+One or two people whose job is to read the market every week. They work with an audience-research platform such as SOMIN's strategy tooling (https://somin.ai/somin-strategy/) to pull tensions, tones and competitor moves out of real posts, and they turn that into a short weekly brief. This is the role most teams lack today.
+
+### The orchestrators
+
+Marketers who direct agents rather than produce assets themselves. They set the brief, review the output, and decide what ships. Their skill is taste plus process discipline.
+
+### The brand guardians
+
+Senior people who protect the narrative and stop the team from chasing every trend. As production gets cheap, the cost of incoherence rises.
+
+### The commercial translator
+
+Someone who ties marketing decisions to profit rather than platform metrics, and who can defend them to finance.
+
+## Checklist: is your team ready for 2027?
+
+- Can you name the single most important audience signal your team acted on last week?
+
+- Does every brief cite evidence from real audiences, not just internal opinion?
+
+- Do you know which creative will work before you spend on media?
+
+- Is there a defined human checkpoint for every agent workflow?
+
+- Do your people have peers outside the company to test ideas with?
+
+If you answered no to two or more, the risk is not that your team becomes obsolete. The risk is that it stays busy while a smaller, better-informed competitor makes the decisions that matter.
+
+## How are brands and agencies already doing this?
+
+We will not quote numbers we cannot stand behind, but the patterns are visible in public work. The Havas Media case study (https://somin.ai/agencies-havas-media-case-study/) shows how an agency used audience evidence to sharpen its planning, and SOMIN's page on AI for agencies (https://somin.ai/somin-for-agencies/) describes the workflow shift in more detail. For in-house teams, the sibling question is how you measure what matters, which we unpack in our episode on vanity metrics (/blog/vanity-metrics-the-numbers-that-make-you-feel-good/).
+
+## Why we are asking this in a room, not just on YouTube
+
+Marketing Mondays started as a weekly YouTube show built on one idea: one real signal, decoded and made actionable, every Monday. But a question this personal does not get answered by a video alone. It gets answered when twenty people who are each quietly worried about the same thing say it out loud, compare notes and leave with a plan. Confidence comes from collaboration and evidence, not from pretending you have already figured it out.
+
+The 12 October session runs from 4 to 7 PM at MYP Centre #28-01, Battery Road. It is invite-only. If you lead a marketing team and want a seat, or want to be on the list for the next one, write to us at ask@mondays.marketing.
+
+Know it before you show it. The 2027 team will not be the one with the most agents. It will be the one with the clearest signal.
+
+
+# The autopsy of a lost sale
+URL: https://mondays.marketing/blog/the-autopsy-of-a-lost-sale/ · Published 2026-09-28
+
+An autopsy of a lost sale is a structured, blameless review of why a customer who was close to buying walked away. Done well, it traces the loss back to a specific audience signal the team missed, such as an unanswered objection or a competitor's better offer, and turns it into one change you make next week.
+
+"The Autopsy of a Lost Sale" is one of the Marketing Mondays episodes people bring up most when they meet us in person. It struck a nerve because nearly every marketer has a lost deal they still think about, and most teams never examine it properly. They either blame sales, blame the price, or quietly move on. This article expands the episode into a method you can run with your own team.
+
+## Why do most teams never examine a lost sale?
+
+Because it feels like a trial. Someone made the call, wrote the email, designed the landing page or set the price, and an honest review risks pointing at them. In a profession where so many people already wrestle with imposter syndrome and a fear of being found out, a lost sale feels like evidence against you personally.
+
+That is exactly why the autopsy has to be blameless. The aim is not to find a culprit. It is to find the signal. When you remove the fear, people tell you what they actually saw, and what they saw is usually the most valuable data you have.
+
+## What should a lost-sale autopsy look at?
+
+We use five layers, working from the customer outwards.
+
+- The trigger. What made this person start looking in the first place? A life moment, a problem at work, a competitor's ad?
+
+- The question they asked. What did they search, ask a colleague, or type into an AI assistant? Did your content answer it?
+
+- The objection. What stopped them? Price, risk, timing, trust, a feature, a feeling?
+
+- The alternative. Who or what did they choose instead, including doing nothing?
+
+- The silence. What did your team never hear because nobody was listening in the right place?
+
+The fifth layer is where the real lessons hide. Most lost sales are not lost at the final meeting. They are lost weeks earlier, in a conversation the brand was not part of.
+
+## Where do you find the evidence?
+
+Internal data tells you what happened inside your funnel. It rarely tells you why. For the why, you need the outside view: what people in the same position are saying publicly about the problem, the category and your competitors.
+
+This is where SOMIN, an AI audience-research platform and the founding partner of Marketing Mondays, does the heavy lifting behind the episode. It reads real posts and comments and surfaces the tensions, tones and objections that keep recurring. Instead of guessing why a buyer hesitated, you can check whether hundreds of similar buyers voice the same hesitation. The Mothercare Singapore case study (https://somin.ai/brands-mothercare-sg-case-study/) is a useful example of a brand using that kind of evidence to understand what parents actually worry about before they buy.
+
+## A worked example
+
+Imagine a B2B software company in Singapore loses a deal at the final stage. The salesperson's notes say "went with cheaper option". The easy conclusion is that price was the problem.
+
+The autopsy asks different questions. What did buyers in this category say online in the months before? Suppose the listening shows a recurring tension: finance teams worry that marketing tools report impressive returns that do not show up in actual profit. Now the loss looks different. The buyer did not choose the cheaper tool because it was cheap. They chose it because it felt less risky to defend to their CFO. Your pitch talked about headline ROAS; their real fear was being blamed for a number that did not add up.
+
+That is a fixable problem. You change the message from "higher returns" to "returns your finance team will believe". Our sister brand Trafix (https://trafix.app/) was built on exactly this tension, tracking true profit rather than flattering ROAS.
+
+## Checklist: running a 45-minute lost-sale autopsy
+
+- Pick one lost sale from the past 30 days. One, not a batch.
+
+- Invite marketing, sales and whoever owns the product. No more than five people.
+
+- State the rule out loud: we are looking for signals, not culprits.
+
+- Walk the five layers: trigger, question, objection, alternative, silence.
+
+- Bring outside evidence: what are similar buyers saying publicly?
+
+- Agree one change to ship within a week, with a named owner.
+
+- Note the signal you missed and where you will listen for it next time.
+
+## What are the common causes of death?
+
+After running this format with many marketers in our community, a few patterns come up again and again.
+
+### The unanswered question
+
+The buyer asked something specific, and the only content available was generic. Increasingly, that question is asked to an AI assistant, and if your brand is not in the answer, you were never in the running.
+
+### The wrong proof
+
+The brand offered proof that mattered to the marketing team, such as awards or reach, not proof that mattered to the buyer's boss.
+
+### The invisible competitor
+
+The real alternative was not a rival brand but doing nothing, or building it in-house. Nobody positioned against that.
+
+### The trust gap
+
+The buyer felt the brand was talking at them, not listening. This is the most common and the hardest to see from inside.
+
+## Why this belongs in a community, not just a meeting room
+
+Autopsies inside one company are limited by one company's blind spots. When marketers from different sectors compare their lost sales, patterns jump out that no single team would spot. That is part of why the Marketing Mondays community exists: peers who can say "we lost one exactly like that, here is what we found" without anyone feeling exposed.
+
+If you want a structured way to look at signals beyond your own funnel, SOMIN's guide to audience research for brands (https://somin.ai/somin-for-brands/) is a good next read. And for the measurement side of the same problem, see our episode on vanity metrics (/blog/vanity-metrics-the-numbers-that-make-you-feel-good/).
+
+Trust facts, not fear. A lost sale is not a verdict on you. It is a signal you have not decoded yet.
+
+
+# AI's role in creative, media and brand marketing
+URL: https://mondays.marketing/blog/ai-role-in-creative-media-and-brand-marketing/ · Published 2026-09-14
+
+AI's role in marketing is different in each discipline. In creative, it widens the range of ideas but cannot judge which one is true to the brand. In media, it optimises faster than humans can. In brand, it is most dangerous, because it pulls every brand towards the same average. The human job is deciding where AI leads and where it follows.
+
+On Monday 24 February 2025, at 5 PM, Marketing Mondays held an in-person session at Block71 Singapore on exactly this question: "AI's Role in Creative, Media, and Brand Marketing". Three speakers, one room of marketers, and a debate that has stayed with us. We returned to Block71 again on 25 August 2026, and the conversation had moved on, but the framework underneath held up. This piece sets it out.
+
+## Why split the question into creative, media and brand?
+
+Because "AI in marketing" is too broad to be useful. When people say they are worried about AI, they usually mean one of three different things. A designer worries that image generation will make their craft cheap. A media buyer worries that automated bidding will make their role redundant. A brand lead worries that everything will start to sound the same. These are different problems with different answers.
+
+## Where does AI help most in creative?
+
+AI is excellent at expanding the option space. Give it a brief and it will return more directions than a team could sketch in a week. That is useful, and it is also the trap. More options do not make a better decision. They make a harder one.
+
+The creative skill that grows in value is selection: knowing which idea is true to an audience tension and which one is just plausible. That judgment depends on evidence about what real people care about. Our sister brand GPT3 Marketing (https://gpt3.marketing/) has worked on this since the early days of generative AI, and its whole method is about grounding prompts and brand voice in what audiences actually respond to.
+
+### A simple creative rule
+
+Let AI generate. Let evidence shortlist. Let humans choose. If any of those three steps is missing, quality drops.
+
+## Where does AI help most in media?
+
+Media is where AI has the most mature track record. Bidding, budget pacing and audience expansion have been machine-led for years. The new frontier is earlier in the process: predicting which creative will earn attention before you spend on it.
+
+SOMIN, the AI audience-research platform that founded Marketing Mondays, works on this pre-spend question. Its paid media intelligence (https://somin.ai/somin-paid-media/) scores creative clickability before budget is committed, so the media machine is optimising the right assets rather than efficiently scaling the wrong ones. The KPI Media case study (https://somin.ai/agencies-kpi-media-case-study/) shows how an agency put this into its own workflow.
+
+## Why is brand the riskiest place to use AI?
+
+Large language models are trained to produce the most likely next word. In brand terms, that means the most average message. If every competitor uses the same tools with similar prompts, the category converges. Listening data shows marketers already feel this: a sea of sameness, where AI-generated content makes everyone sound alike and the instinct is to chase trends rather than build narrative.
+
+The answer is not to avoid AI in brand work. It is to feed it something your competitors do not have: a specific, evidenced understanding of your audience's tensions, and a clear narrative you are willing to defend.
+
+## Framework: who leads, who follows?
+
+- Creative: AI leads on generation, humans lead on selection and craft.
+
+- Media: AI leads on optimisation, humans lead on what gets fed into it and on profit, not platform metrics.
+
+- Brand: humans lead on narrative, AI follows as a tool for consistency and scale.
+
+- Research: AI leads on reading volume, humans lead on interpreting what matters.
+
+## What did the room push back on?
+
+We will not attribute quotes we did not record verbatim, but a few themes came up repeatedly from the floor.
+
+### "Who checks the AI?"
+
+Several marketers worried about AI conclusions they could not verify. The fair response: only trust tools that let you trace a conclusion back to the real posts or data behind it. If you cannot check it, do not ship it.
+
+### "What happens to junior roles?"
+
+The tasks that once trained juniors, such as resizing and first drafts, are the ones being automated. Teams need a deliberate way to teach judgment early, and peer communities are part of that answer.
+
+### "Is the brand still ours?"
+
+Brand leads were clear that narrative ownership cannot be delegated. AI can help you say it many ways. It cannot decide what you stand for.
+
+## What should you do this Monday?
+
+Pick one live project and label each step creative, media, brand or research. For each, write down who leads today, the human or the machine, and who should lead according to the framework above. Most teams find one step where AI is leading on something that needs judgment, usually brand tone, and one where humans are still doing work a machine could take, usually reporting. Swap those two and you have a practical first move.
+
+## Definitions
+
+- Creative clickability: a prediction of how likely a creative is to earn engagement, made before media spend.
+
+- Sea of sameness: a category where brands converge on similar messages, often accelerated by generic AI output.
+
+- Audience tension: a recurring conflict or pain point that real people voice, which a brand can address.
+
+## What has changed since the first Block71 session?
+
+By our August 2026 return, the conversation had shifted from "should we use AI" to "how do we organise around it". That is the question we are taking to the next session, on the shape of the 2027 marketing team. You can read our pre-read in the 2027 marketing team signal (/blog/the-2027-marketing-team-smaller-faster-or-obsolete/).
+
+If you want to be in the room next time, the Marketing Mondays WhatsApp community, "Marketing Mondays @ Block71", is where session news lands first. Request an invite at ask@mondays.marketing.
+
+
+# Vanity metrics: the numbers that make you feel good
+URL: https://mondays.marketing/blog/vanity-metrics-the-numbers-that-make-you-feel-good/ · Published 2026-09-07
+
+Vanity metrics are numbers that look impressive in a report but do not tell you whether marketing made the business money. Reach, likes, raw follower growth and even headline ROAS can all qualify. The test is simple: if the number went up and profit did not, it was a vanity metric for that decision.
+
+Every marketer has presented a slide they were secretly unsure about. A big reach figure. A ROAS of 400%. A spike in engagement. The room nods, and you move on, but a small voice asks whether any of it mattered. This Marketing Mondays signal is about that voice, and why you should listen to it.
+
+## Why do vanity metrics survive?
+
+Because they protect people. When you are under pressure to prove marketing's value, and many marketers feel undervalued, a big number feels like a shield. Agencies are rewarded for reports that look good. Platforms report the numbers that flatter their own inventory. Nobody in the chain has a strong reason to ask the uncomfortable question.
+
+Listening data across the marketing community shows the consequence clearly: a profitability gap. Brands optimise ROAS and CPA while ignoring returns, fees, discounts and the true cost of acquiring a customer. Agencies chase metrics they can control rather than outcomes the client cares about. Everyone feels busy and successful until finance asks where the money went.
+
+## How can a 400% ROAS lose money?
+
+Here is a worked example with illustrative numbers. A brand spends S$10,000 on ads and the platform attributes S$40,000 in revenue. That is a 400% ROAS, and it looks excellent.
+
+- Product cost on S$40,000 of sales: S$18,000.
+
+- Returns and refunds: S$4,000 of revenue reversed.
+
+- Discounts used to close the sales: S$3,000.
+
+- Payment and platform fees: S$1,500.
+
+- Agency and tooling fees: S$3,000.
+
+- Sales that would have happened anyway without ads: some share, often unknown.
+
+Add those up and the real contribution from that S$10,000 can be close to zero or negative. The 400% was real as a platform number. It was a vanity metric as a business number.
+
+## Which metrics are usually vanity, and which are useful?
+
+### Often vanity, depending on the decision
+
+- Impressions and reach without a measure of attention or recall.
+
+- Likes and follower counts without a link to intent.
+
+- Platform-reported ROAS without costs, returns or incrementality.
+
+- Content volume shipped.
+
+### Usually useful
+
+- Contribution margin after marketing costs.
+
+- New customer acquisition cost against lifetime value.
+
+- Incremental lift from controlled tests.
+
+- Share of the conversations that matter in your category.
+
+- Pre-spend creative scores that predict performance.
+
+## Checklist: audit your next report in 15 minutes
+
+- For every metric on the page, write the decision it supports. If you cannot, cut it.
+
+- Find one number that is reported by the platform being paid. Ask for an independent equivalent.
+
+- Check that returns, discounts and fees are subtracted somewhere.
+
+- Ask what would have happened without the spend.
+
+- Add one forward-looking signal: what audiences are saying now that will affect next month.
+
+## What should you measure instead?
+
+Our position is that measurement should start before the money is spent. The best time to avoid a vanity result is before you commit budget to a creative that was never going to convert. SOMIN, the AI audience-research platform behind Marketing Mondays, scores creative clickability pre-spend through its paid media intelligence (https://somin.ai/somin-paid-media/), and its reporting tools (https://somin.ai/somin-reporting/) tie results back to audience signal rather than just platform numbers. The Analytic Partners case study (https://somin.ai/agencies-analytic-partners-case-study/) is worth reading for how a measurement-led agency thinks about this.
+
+On the listening side, share of voice only matters if it is share of the right conversations. Our sister app Somonitor (https://somonitor.ai/) focuses on conversation signals and early warning, rather than raw mention counts, for exactly that reason.
+
+## How do you raise this without looking like you are attacking your own work?
+
+This is the part that keeps people quiet. Challenging a metric your team has been celebrating feels risky. Three approaches help.
+
+- Frame it as an upgrade. "This number is good. Here is how we make it believable to finance."
+
+- Bring a peer. Someone outside your company who has made the same shift lends credibility, which is one reason communities like Marketing Mondays exist.
+
+- Start small. Fix one report, one campaign, one metric. Show the difference.
+
+## What should you do this Monday?
+
+Take the last report you presented and circle the single number you were proudest of. Then ask three questions about it. What costs sit behind it that the report does not show? What would that number have been with no spend at all? And what decision did it actually change? If you cannot answer the third question, you have found your first vanity metric. Replace it next month with a measure tied to contribution margin, and tell your stakeholders why. In our experience, finance teams respond well to a marketer who volunteers a harder number before being asked. It is one of the quickest ways to move from defending marketing to being trusted with more of the budget. Bring what you find to the community; someone will have already fought the same battle with the same platform.
+
+## Definitions
+
+- ROAS: return on ad spend, usually revenue attributed to ads divided by ad spend.
+
+- True ROAS or profit ROAS: the same idea using contribution margin after costs, returns and fees.
+
+- Incrementality: the share of results that would not have happened without the marketing.
+
+For the human side of the same problem, see the autopsy of a lost sale (/blog/the-autopsy-of-a-lost-sale/), where a flattering metric hid the real reason a buyer walked away.
+
+Chasing illusions blinds us to genuine opportunities. The number that makes you feel good is rarely the number that makes the business better.
+
+
+# Will AI replace marketers? A signal-based answer
+URL: https://mondays.marketing/blog/will-ai-replace-marketers/ · Published 2026-08-24
+
+AI will replace many marketing tasks, not most marketers. The work most exposed is repeatable production: first drafts, resizing, routine reporting. The work gaining value is judgment: reading audience signal, choosing ideas, owning narrative and defending decisions with evidence. Marketers who build those skills, and a peer network to test them in, become more valuable.
+
+Of all the questions we hear at Marketing Mondays sessions, this is the one people ask most quietly. Usually after the panel, by the coffee, in a lower voice. So we decided to make it an episode, and to answer it the way we answer everything on the show: with one signal and a clear takeaway, not opinions.
+
+## What is the fear really about?
+
+When we listen to how marketers talk about AI and their careers online, the fear of replacement rarely appears alone. It comes bundled with perfectionism, with feeling undervalued, and with a lack of community and mentorship. People are not only asking "will a machine do my job?" They are asking "if it does part of my job, will anyone notice the part I am good at?"
+
+That matters, because the fix for that fear is not just a new skill. It is visibility, evidence and peers.
+
+## Which marketing tasks are most exposed?
+
+- Writing first drafts of routine copy.
+
+- Producing variations and resizes of existing creative.
+
+- Compiling standard performance reports.
+
+- Summarising research and competitor activity.
+
+- Basic audience segmentation from existing data.
+
+Notice the pattern: these are tasks where the right answer is already mostly defined. AI is very good at that.
+
+## Which skills are rising in value?
+
+### Signal reading
+
+Knowing which of a thousand data points actually matters. AI can surface tensions and patterns from real conversations, and platforms such as SOMIN, the AI audience-research platform that founded Marketing Mondays, do exactly that. Deciding which one to act on is still a human call.
+
+### Narrative judgment
+
+Choosing what a brand stands for and saying no to ideas that are clever but off-strategy.
+
+### Orchestration
+
+Directing AI agents, reviewing their output and building workflows with clear human checkpoints. The SOMIN page on AI agents for marketing (https://somin.ai/ai-agents/) lays out how this division of labour works in practice.
+
+### Commercial translation
+
+Connecting marketing decisions to profit and explaining them to finance.
+
+### Cultural nuance
+
+Understanding how audiences in Singapore and across Southeast Asia read tone, humour and honesty differently. Our sister consultancy Mindfuse (https://mindfuse.sg/) specialises in exactly this kind of cultural and consumer-psychology insight, and it is very hard to automate well.
+
+## A 30-day plan to get ahead
+
+- Week 1: List your recurring tasks. Mark the ones an AI tool could do at 80% quality. Try automating two.
+
+- Week 2: Use the time saved to read one real audience signal each day. Write a single sentence on what it means for your brand.
+
+- Week 3: Bring one evidence-backed recommendation to your manager. Show the posts or data behind it.
+
+- Week 4: Share what you learned with peers outside your company and ask for challenge.
+
+By the end, you will have done something AI cannot do for you: built a track record of good judgment that people can see.
+
+## What does this look like inside real teams?
+
+We will not invent statistics, but public case studies show the direction. The Blak Labs case study (https://somin.ai/agencies-blak-labs-case-study/) describes an agency using AI to take on research load so strategists can focus on the decisions, and the SOMIN vision (https://somin.ai/vision/) page explains the thinking behind building tools that support marketers rather than replace them.
+
+## What do hiring managers look for now?
+
+Job descriptions are a useful signal in their own right. Across the roles we see shared in our community, the language is shifting from tool proficiency towards judgment: "able to interpret audience insight", "comfortable directing AI workflows", "can connect marketing to commercial outcomes". Being fluent in a particular platform matters less when the platform changes every year. Being able to explain why you made a call, and show the evidence, matters more.
+
+That gives you a simple test for your own CV or portfolio. For every achievement, can you state the signal you read, the decision you made and the result? If your examples only describe output, such as campaigns shipped or posts produced, rewrite them around decisions. That is the work AI does not do for you, and it is the work employers are now hiring for.
+
+One more practical point: keep a simple decision log. Each week, note one call you made, the evidence behind it and what happened. Within a quarter you will have a record that answers the replacement question better than any argument, for your manager and for yourself.
+
+## Definitions
+
+- Task automation: AI doing a defined piece of work end to end.
+
+- Augmentation: AI making a person faster or better at work they still own.
+
+- Human checkpoint: a deliberate point in an AI workflow where a person reviews and approves output.
+
+## Why community is part of the answer
+
+It is easier to be confident about your value when other people can see it. Imposter syndrome feeds on isolation. When you can say "here is what I tried, here is the evidence, what would you do?" to a room of peers, the fear gets smaller and the skills get sharper. That is the whole idea behind Marketing Mondays: confidence through collaboration and evidence.
+
+The bigger structural version of this question is on the table at our next session, which we previewed in the 2027 marketing team (/blog/the-2027-marketing-team-smaller-faster-or-obsolete/). If you want to join the conversation, the community runs on YouTube, the LinkedIn "Marketing Mondays Group" and WhatsApp. Ask for an invite at ask@mondays.marketing.
+
+Don't fake it till you make it. Know it before you show it.
+
+
+# Marketer imposter syndrome: know it before you show it
+URL: https://mondays.marketing/blog/marketer-imposter-syndrome-know-it-before-you-show-it/ · Published 2026-08-17
+
+Imposter syndrome in marketing is the persistent feeling that you are less capable than others think, and will soon be found out. It is common because marketing outcomes are uncertain and opinions are loud. The most reliable cure is not faking confidence but earning it: decisions backed by real audience evidence, tested with peers.
+
+"Authenticity thrives where insecurity ebbs." That line came out of SOMIN's listening on how marketers talk about their own work, and it is close to the founding idea of Marketing Mondays. This episode looks at why so many capable people feel like frauds, and a practical way out.
+
+## Why is imposter syndrome so common in marketing?
+
+Three features of the job make it worse than in many professions.
+
+- Outcomes are noisy. A campaign can fail for reasons outside your control, or succeed by luck. It is hard to know how good you really are.
+
+- Everyone has an opinion. Few people tell an accountant how to reconcile a ledger. Everyone tells a marketer what the headline should be.
+
+- The ground keeps moving. New platforms, new formats, and now AI. Expertise feels out of date the moment you earn it.
+
+Add a culture that rewards looking certain, and you get talented marketers who privately feel they are bluffing.
+
+## What does "fake it till you make it" get wrong?
+
+It treats confidence as a performance. That works briefly, but it raises the stakes of being wrong, which makes the anxiety worse. It also produces the worst kind of marketing: decisions defended by tone of voice rather than evidence.
+
+Our alternative is in the title. Know it before you show it. Confidence that rests on evidence does not need to be performed, because you can point at the reason.
+
+## Where does real confidence come from?
+
+### Evidence you can show
+
+When you can say "these are the posts where our audience describes this exact frustration", the conversation changes. You are no longer defending an opinion. SOMIN, the AI audience-research platform that founded Marketing Mondays, is built around this: concept tags and tensions that trace back to the real posts behind them, so any conclusion can be checked. Its strategy workspace (https://somin.ai/somin-strategy/) is where most of the episode research starts.
+
+### Peers who have been there
+
+Isolation feeds imposter syndrome. Hearing a respected peer admit the same doubt is one of the fastest ways to shrink it. Listening data shows marketers explicitly asking for community, networking and mentorship, and that is the gap Marketing Mondays tries to fill.
+
+### Small, visible wins
+
+Confidence compounds. One evidenced recommendation that works is worth more than a dozen confident pitches.
+
+## A weekly confidence routine
+
+- Monday: watch or read one decoded signal. Ask what it means for your brand.
+
+- Tuesday: find three pieces of real audience evidence that support or contradict your current plan.
+
+- Wednesday: write a one-paragraph recommendation with the evidence attached.
+
+- Thursday: share it with one colleague and one peer outside your company.
+
+- Friday: note what you learned and what you would change.
+
+It sounds simple because it is. The point is to replace the question "am I good enough?" with "what does the evidence say?"
+
+## How do you handle the loudest person in the room?
+
+Most imposter feelings spike in meetings where someone senior has a strong opinion. Evidence is your equaliser. Instead of arguing, you can say: "Here is what our audience is actually saying. Shall we check it against that?" It moves the debate from status to substance.
+
+The Viva School case study (https://somin.ai/brands-viva-school-case-study/) is a good illustration of how audience evidence helped a team align on what its community really cared about, rather than what the loudest internal voice assumed.
+
+## Does AI make imposter syndrome better or worse?
+
+Both. AI can make you feel replaceable, which we tackled in will AI replace marketers? (/blog/will-ai-replace-marketers/). But AI can also give you something you never had before: fast access to evidence at a scale no individual could read. Used well, it is a confidence tool. Used badly, as a source of unchecked answers, it is another thing to feel unsure about.
+
+Our sister studio GPT5 Marketing (https://gpt5.marketing/) works with CMOs on exactly this balance: redesigning workflows around reasoning models while keeping market evidence at the centre.
+
+## What do you say when you genuinely do not know?
+
+Evidence will not cover every question. Sometimes the honest answer is that nobody knows yet. The confident move is to say so, then propose how you will find out: a small test, a week of listening, a conversation with customers. "I don't know, and here is how we will know by Friday" is far stronger than a bluff, and it builds the kind of trust that makes the next meeting easier. Many of the most respected marketers in our community are the ones most comfortable saying it.
+
+## Definitions
+
+- Imposter syndrome: persistent self-doubt despite evidence of competence.
+
+- Evidence-backed recommendation: a proposal that cites real audience or market data anyone can check.
+
+- Confidence through collaboration: building certainty by testing ideas with peers rather than alone.
+
+## Checklist: signs you are faking rather than knowing
+
+- You avoid questions about why a plan will work.
+
+- Your briefs cite internal opinion more than audience evidence.
+
+- You feel relief, not satisfaction, when a campaign succeeds.
+
+- You have nobody outside your company to sanity-check ideas with.
+
+If two or more ring true, start with the weekly routine above, and find a room of peers. Marketing Mondays runs on YouTube, the LinkedIn "Marketing Mondays Group" and the WhatsApp community, with invite-only sessions in Singapore. Join the community through ask@mondays.marketing.
+
+
+# Escaping the sea of sameness when everyone uses AI
+URL: https://mondays.marketing/blog/escaping-the-sea-of-sameness-with-ai/ · Published 2026-08-03
+
+The sea of sameness is what happens when brands in a category converge on the same messages, visuals and trends. Generative AI accelerates it, because similar tools produce similar averages. The way out is to feed AI something competitors lack: specific, evidenced audience tensions and a narrative you are willing to hold even when trends move.
+
+Scroll any category feed in Singapore for five minutes and you will see it. The same hooks, the same trending audio, the same polished but forgettable copy. This Marketing Mondays signal asks why, and what a brand can do about it.
+
+## Why does AI make brands sound the same?
+
+Language models predict the most likely output given a prompt. Ask several of them for "a warm, modern, customer-first brand voice" and you will get remarkably similar results. When competitors use the same tools, trained on the same internet, with similar prompts, convergence is the default outcome.
+
+Listening data shows marketers already feel this pressure. Brand differentiation in saturated markets is a recurring pain point, along with AI content that needs heavy human revision and a reliance on discounting instead of value. The second pattern, chasing trends out of fear of missing out, makes it worse.
+
+## Is trend-chasing the problem or the symptom?
+
+The symptom. Brands chase trends when they lack a narrative strong enough to stand on. If you do not know what you stand for, the trend feels safer. The core insight from SOMIN's listening is that authenticity outlasts trends: narrative beats trend because narrative compounds and trends expire.
+
+That does not mean ignoring trends. It means asking whether a trend expresses your narrative, or just borrows attention.
+
+## How do you differentiate when everyone has the same tools?
+
+### Start from a tension, not a tone
+
+Tone of voice is easy to copy. An audience tension, a specific conflict your customers feel, is much harder to copy because competitors have to find it first. SOMIN, the AI audience-research platform behind Marketing Mondays, surfaces these tensions from real posts. The Fujifilm case study (https://somin.ai/brands-fujifilm-case-study/) shows how a brand built content around what its audience actually cared about rather than category conventions.
+
+### Give AI your evidence, not just your adjectives
+
+Instead of prompting for "friendly and bold", prompt with "our audience feels X, says Y in their own words, and distrusts Z". The output gets more specific immediately.
+
+### Hold a narrative across trends
+
+Decide on one or two story lines your brand will own for a year. Test every trend against them.
+
+### Measure distinctiveness, not just performance
+
+If your best-performing content could carry a competitor's logo without anyone noticing, it is not building your brand.
+
+## Checklist: are you in the sea of sameness?
+
+- Cover your logo. Could the post belong to a competitor?
+
+- Does your brief name a specific audience tension, with evidence?
+
+- Did you join the last three trends because they fitted your story, or because everyone did?
+
+- Is discounting doing the work that differentiation should?
+
+- Do your AI prompts contain audience evidence, or only brand adjectives?
+
+## A worked example
+
+Take a hypothetical Singapore skincare brand. Its AI-assisted content talks about "glowing, healthy skin" like every competitor. Listening reveals a sharper tension: people in humid climates feel that most routines are designed for somewhere else, and they are tired of products that feel heavy by midday. That is a narrative: skincare made for the weather you actually live in. Every trend can be tested against it. The AI prompts change from adjectives to that tension, and the output stops sounding like everyone else.
+
+## Where does discovery fit in?
+
+Sameness is not only a social problem. If AI search assistants and answer engines describe your category in generic terms, they will describe you generically too. Our sister agency SNMRush (https://snmrush.com/) works on this, building answer-ready content from the questions audiences actually voice so brands show up distinctly in search and AI answers. We cover the same shift in our episode on AI answers (/blog/when-ai-answers-replace-the-search-results-page/).
+
+## How do you get buy-in for a narrative?
+
+Narratives fail inside organisations more often than in the market. Someone senior wants to join a trend, a sales team wants a discount push, and the story bends. The best defence is to agree the narrative in writing, with the audience evidence that supports it, before the pressure arrives. Make it a one-page document: the tension, the proof, the story you will tell, and the trends you will deliberately skip. When the next shiny moment appears, the conversation becomes "does this fit what we agreed?" rather than a debate about taste. That single page has saved more brands from sameness than any tool, because it gives the team permission to say no with confidence.
+
+Review that page every quarter against fresh listening. Tensions shift, and a narrative that ignores new evidence slowly becomes another kind of sameness. The goal is consistency of story, not stubbornness about detail, and the evidence tells you which is which.
+
+## Definitions
+
+- Sea of sameness: a category where brands converge on similar messaging and visuals.
+
+- Audience tension: a recurring conflict or frustration voiced by real people that a brand can address.
+
+- Distinctiveness: how recognisably your work belongs to your brand.
+
+For more on how evidence feeds creative tools, SOMIN's overview of its social media manager (https://somin.ai/somin-social-media-manager/) shows how content planning can start from audience signal. And if you want to argue about this with people who face the same problem, the Marketing Mondays community is open by invitation at ask@mondays.marketing.
+
+Trendsetters, not trend chasers. The brand that knows its audience's tension does not need to borrow anyone else's moment.
+
+
+# The one signal method: how we decode a Monday episode
+URL: https://mondays.marketing/blog/the-one-signal-method/ · Published 2026-07-27
+
+The one signal method is the format behind every Marketing Mondays episode: pick one real market signal, such as a competitor's play, a shift in what audiences want or a winning campaign, decode why it matters in minutes, and finish with one clear takeaway. It trades the comfort of more data for the discipline of one decision.
+
+People sometimes ask why our YouTube episodes are so short, and why they never cover "the top ten trends". The answer is deliberate. Marketers are not short of information. They are short of signal they trust and time to act on it. This piece explains how we build an episode, so you can run the same method inside your own team.
+
+## What counts as a signal?
+
+A signal is an observable change in the market that should affect a decision. Not an opinion, a prediction or a hot take. We look for three kinds.
+
+- A competitor's play: a new offer, positioning shift, launch or creative approach that is getting real response.
+
+- A shift in what audiences want: a tension, frustration or desire that is appearing more often in real conversations.
+
+- A winning campaign: work that is clearly connecting, with evidence of why.
+
+Noise, by contrast, is anything that is loud but would not change what you do on Monday afternoon.
+
+## How do we choose one signal from thousands?
+
+The data engine behind every episode is SOMIN, an AI audience-research platform and the founding partner of Marketing Mondays. It reads large volumes of real posts, ads and comments and organises them into themes, tensions and moments. That gives us a long list. The human work is cutting it down to one, using four filters.
+
+- Is it real? Can we point to the posts or ads behind it?
+
+- Is it growing? Is it appearing more, not just appearing?
+
+- Is it relevant to many marketers? Would a founder, an agency planner and an in-house brand lead all care?
+
+- Is there a clear action? If the takeaway is "keep an eye on it", we pass.
+
+## How is an episode structured?
+
+### The signal (about 30 seconds)
+
+What happened, stated plainly, with evidence.
+
+### The decode (two to four minutes)
+
+Why it is happening. Which audience tension it connects to. Who benefits and who is exposed.
+
+### The takeaway (30 seconds)
+
+One thing to do this week. Specific enough that you could put it in a task list.
+
+That structure is how the show earns its tagline: a weekly shot of marketing intelligence, decoded and made actionable every Monday, for marketers, founders and agency teams.
+
+## How can you run the method in your own team?
+
+You do not need a studio. You need a slot, an owner and a source of evidence.
+
+- Book 20 minutes every Monday morning.
+
+- Rotate a signal owner each week so everyone builds the muscle.
+
+- The owner brings one signal with evidence attached.
+
+- The team decodes it together using the three-part structure.
+
+- End with one action, one owner, one deadline.
+
+- Review last week's action before starting the new one.
+
+Evidence can come from social listening, your sales team, search data or an audience-research tool. SOMIN's brand workspace (https://somin.ai/somin-for-brands/) is built for this kind of weekly review, and the SM Universe case study (https://somin.ai/brands-sm-universe-case-study/) shows how a brand used continuous audience signal to steer its content.
+
+## Why one signal and not five?
+
+Because decisions are scarce, not data. A team that acts on one well-understood signal every week makes 52 good decisions a year. A team that reviews twenty signals every week usually makes very few, because nothing gets enough attention to become an action. One signal also makes it easier to speak with confidence. You know it well enough to defend it.
+
+## What does a decoded signal look like?
+
+A recent example: we noticed marketers increasingly asking how to evaluate agencies on something other than reach and ROAS. The decode linked it to a wider tension about vanity metrics and the hidden costs of advertising. The takeaway: add one profit-based measure to your next agency review. We went deeper in vanity metrics: the numbers that make you feel good (/blog/vanity-metrics-the-numbers-that-make-you-feel-good/).
+
+Signals often cross over with the work of our sister brands. When a signal is about paid-media efficiency, the people at Trafix (https://trafix.app/) usually have a view. When it is about listening and early warning, Somonitor (https://somonitor.ai/) does.
+
+## What are the common mistakes?
+
+Teams adopting the method tend to stumble in the same places. The first is choosing a signal because it is interesting rather than useful; if nobody can name a decision it affects, drop it. The second is skipping the evidence and arriving with a hunch. The third is ending with a vague action such as "think about our Gen Z strategy", which never gets done. The last is skipping the review of last week's action, which quietly turns the ritual into a talking shop. Fix those four and the method holds up in almost any team size.
+
+## Definitions
+
+- Signal: an observable market change that should affect a decision.
+
+- Noise: information that is loud but would not change what you do.
+
+- Decode: the explanation of why a signal is happening and who it affects.
+
+- Takeaway: one specific action with an owner and a deadline.
+
+## Where to watch and join
+
+Episodes go out on YouTube at @marketing-mondays, brought to you by SOMIN. Discussion carries on in the LinkedIn "Marketing Mondays Group" and the WhatsApp community "Marketing Mondays @ Block71", where members share signals they have spotted and test their decodes with peers. To join, email ask@mondays.marketing.
+
+One real signal, decoded and made actionable. Not opinions. Not ten trends. One thing you can use today.
+
+
+# Media foresight: retail media, Gen Z and the next budget
+URL: https://mondays.marketing/blog/media-foresight-retail-media-and-gen-z/ · Published 2026-07-13
+
+Media foresight is the habit of planning budgets around where audiences and channels are heading, not where they were last quarter. Two shifts matter most for 2027 plans: retail media networks turning commerce data into ad inventory, and Gen Z audiences who do not fit old demographic segments. Planning ahead means reading audience signal continuously.
+
+Most media plans are built backwards. Last year's results set this year's split, adjusted a few points either way. That worked when channels changed slowly. This Marketing Mondays signal looks at why it no longer does, and what a more forward-looking plan looks like.
+
+## Why do media plans lack foresight?
+
+Listening across the marketing community shows the same frustrations recurring: no reliable way to measure audiences across platforms, difficulty personalising ads for new audiences with little data, and underestimating niche communities until a competitor finds them first. Underneath sits a planning culture that rewards defending last year's numbers rather than spotting next year's shifts.
+
+There is also a confidence problem. Moving budget to a new channel feels risky when you will be blamed if it fails. Staying put feels safe, even when it is not.
+
+## What do retail media networks change?
+
+Retail media networks let retailers and platforms sell advertising using their own shopper data, close to the point of purchase. For brands, they promise targeting based on real buying behaviour and measurement tied to sales.
+
+The planning questions are harder than they look.
+
+- How much of the "result" would have happened anyway on the retailer's own shelf?
+
+- Is the budget coming from brand building, and what does that cost later?
+
+- Can you compare results across networks that each mark their own homework?
+
+Retail media can be excellent. It can also be the newest home for vanity metrics, a theme we explored in our vanity metrics episode (/blog/vanity-metrics-the-numbers-that-make-you-feel-good/).
+
+## Why does Gen Z break old segmentation?
+
+Age and income were always rough proxies. For Gen Z they are particularly weak. Identity is expressed through communities, fandoms and values that cut across demographics. A young professional in Singapore might share more with a fan community in Manila than with someone the same age two MRT stops away.
+
+Niche fandoms are a good example. Listening often shows passionate, under-served communities, such as fans of women's football, that most media plans treat as too small to matter. They are frequently cheaper to reach and more loyal once reached.
+
+Our sister consultancy Mindfuse (https://mindfuse.sg/) works on Gen Z personas and cultural codes in Singapore and Southeast Asia, and is a good partner for this kind of segmentation.
+
+## How do you build foresight into a plan?
+
+### Read signal monthly, not yearly
+
+Track which audience tensions and communities are growing. SOMIN, the AI audience-research platform that powers Marketing Mondays, maps these from real conversations, and its strategy tools (https://somin.ai/somin-strategy/) are designed for exactly this continuous view.
+
+### Ring-fence a test budget
+
+Set aside a fixed share of spend for channels and audiences you are not yet sure about. Judge it on learning, not just immediate return.
+
+### Plan by tension, not demographic
+
+Group audiences by the problem they share. Then ask which channels those people actually use.
+
+### Agree cross-platform measures in advance
+
+Decide how you will compare results before you buy, not after.
+
+## Checklist: foresight questions for your 2027 plan
+
+- Which audience tension grew most in your category over the past six months?
+
+- Which community are competitors ignoring?
+
+- What share of budget is reserved for learning?
+
+- How will you measure retail media incrementality?
+
+- Who in your team owns reading signal every month?
+
+## What does good look like?
+
+Public case studies point the way without needing invented numbers. The Senoko Energy case study (https://somin.ai/agencies-senoko-energy-case-study/) shows how audience understanding shaped planning in a category many would assume is purely functional, and the comparison of strategy tools (https://somin.ai/somin-vs-strategy-tools/) sets out how audience-led planning differs from traditional approaches.
+
+## What should you do this Monday?
+
+Open your current media plan and mark every line that is there mainly because it was there last year. Then pick one audience tension that has grown in your category recently and ask whether any line in the plan speaks to it. If none does, you have found your foresight gap. Move a small, ring-fenced amount towards testing that audience in the channels where they actually talk, and decide in advance what you want to learn. Share the result with peers, because foresight sharpens when it is compared across categories. A planner in banking and a planner in beauty will spot different early signals in the same Gen Z conversation, and both will plan better for having heard the other.
+
+Finally, write down the assumptions behind your plan: which audiences you expect to grow, which channels you expect to decline, and why. Revisit them every quarter. Foresight is less about predicting correctly and more about noticing early when you were wrong, and adjusting before the budget is gone. Teams that write their assumptions down notice far sooner than teams that keep them in their heads.
+
+## Definitions
+
+- Media foresight: planning based on where audiences and channels are heading.
+
+- Retail media network: advertising sold by retailers or commerce platforms using their shopper data.
+
+- Cold-start personalisation: tailoring ads to audiences you have little first-party data on.
+
+- Fandom: a community organised around shared passion, often cutting across demographics.
+
+Foresight is easier with peers who are seeing different parts of the market. That is one reason the Marketing Mondays community runs in-person sessions in Singapore alongside the weekly show. Request an invite at ask@mondays.marketing.
+
+
+# When AI answers replace the search results page
+URL: https://mondays.marketing/blog/when-ai-answers-replace-the-search-results-page/ · Published 2026-07-06
+
+When AI assistants answer questions directly, buyers see a summary instead of ten blue links, and only a few brands get mentioned. Visibility now depends on whether your content answers the real questions audiences ask, in clear, citable language. Marketers need to find those questions from real conversations and build answer-ready content around them.
+
+A growing share of buyer research starts in a chat window. People ask ChatGPT, Gemini or Perplexity to compare options, or read an AI Overview at the top of a search page. This Marketing Mondays signal looks at what that means for brands, and the practical steps that follow.
+
+## What changes when AI answers the question?
+
+Three things.
+
+- Fewer clicks. If the answer is on the page, many people never visit a site.
+
+- Fewer brands mentioned. An answer might name three options, not thirty.
+
+- Different signals of authority. Clear, structured, specific content that directly answers a question tends to be easier for AI systems to use.
+
+Listening data shows marketers already feel this. Generative AI changing brand visibility is a recurring concern, alongside the fear of losing human connection as more of the journey becomes automated.
+
+## Is this the end of SEO?
+
+No, but it is a broadening. Classic search optimisation still matters, because AI systems often draw on content that ranks well. Alongside it, answer engine optimisation (AEO) and generative engine optimisation (GEO) focus on being the source an AI chooses to cite or summarise. Our sister agency SNMRush (https://snmrush.com/) works across all three, and its view is simple: get found in search and in AI answers, using content built from the questions audiences actually voice.
+
+## How do you find the questions that matter?
+
+Keyword tools tell you what people type into search boxes. They tell you less about the longer, more conversational questions people ask AI assistants, or the worries behind them. Social conversation is a richer source. When people post "is it worth paying more for X if I only need Y?", that is the question an assistant will be asked too.
+
+SOMIN, the AI audience-research platform behind Marketing Mondays, surfaces these tensions and questions from real posts. Its brand research tools (https://somin.ai/somin-for-brands/) are a practical starting point, and the Reassured case study (https://somin.ai/brands-reassured-case-study/) shows a brand grounding its content in what its audience was really asking.
+
+## What does answer-ready content look like?
+
+### A direct answer first
+
+Open with a short paragraph that answers the question plainly. Every article on this site does this, for exactly this reason.
+
+### Clear entity naming
+
+Say who you are and what you do in plain words. "SOMIN, an AI audience-research platform" is easier for a model to use than a clever tagline.
+
+### Question-shaped headings
+
+Use the questions people actually ask as headings, then answer them.
+
+### Definitions and checklists
+
+Short, structured blocks are easy to quote accurately.
+
+### Evidence and specifics
+
+Generic content is easy to replace with a summary. Specific, evidenced content is worth citing.
+
+## Checklist: an AI visibility audit in one afternoon
+
+- List the ten questions your best customers asked before buying.
+
+- Ask three AI assistants each question. Note which brands appear.
+
+- Check whether your site has a page that answers each question directly.
+
+- Rewrite the opening paragraph of your top pages as a 40 to 60 word answer.
+
+- Add question-style headings and a short FAQ.
+
+- Repeat the assistant check in a month.
+
+## How do you keep the human connection?
+
+If AI summarises your brand, your brand needs something worth summarising. That means a clear point of view, real expertise and a voice that sounds like people. It also means showing up where humans still gather: communities, events and creators. We discuss the creative side of this in escaping the sea of sameness (/blog/escaping-the-sea-of-sameness-with-ai/).
+
+For a wider view of how SOMIN approaches AI-driven marketing, the SOMIN blog (https://somin.ai/blog/) covers the topic regularly.
+
+## Who should own AI visibility?
+
+In many teams, nobody does. SEO sits with one person, content with another, brand with a third, and AI answers fall in between. We think the owner should be whoever is closest to audience questions, because that is the raw material. Give them a monthly slot to run the assistant check, a short list of pages to improve, and a direct line to the content team. Visibility in AI answers is less about technical tricks and more about consistently answering what people really ask, which is a marketing job, not only a technical one.
+
+Start small. Choose the five questions that matter most to your revenue and make sure your site answers each one better than anyone else, in plain language, with evidence. Track whether assistants begin to mention you. Then widen the list. Brands that treat this as a steady monthly habit, rather than a one-off project, tend to build visibility that compounds, because each well-answered question makes the next one easier to win. It is also worth asking your sales and service teams which questions they hear most often, since those rarely show up in keyword tools but are exactly what buyers type into a chat window.
+
+## Definitions
+
+- AEO: answer engine optimisation, structuring content so it can be used as a direct answer.
+
+- GEO: generative engine optimisation, increasing the chance a generative AI system cites or mentions your brand.
+
+- AI Overview: an AI-generated summary shown at the top of some search results.
+
+- Entity: a clearly named thing, such as a brand or product, that AI systems can recognise.
+
+This is a fast-moving area, and nobody has all the answers. That is exactly why it works as a community conversation. Bring your audit results to the Marketing Mondays LinkedIn group or WhatsApp community, or ask for an invite at ask@mondays.marketing.
