@@ -42,7 +42,7 @@
 
 ## Sister companies
 - [Somonitor](https://somonitor.ai/): Always-on listening you can check
-- [Trafix](https://trafix.app/): Paid traffic, measured in profit
+- [FMedia](https://fmedia.marketing/): Paid traffic, measured in profit
 - [AgentC](https://agentc.marketing/): Agents play. Humans conduct.
 - [GPT3 Marketing](https://gpt3.marketing/): Six years of AI content craft
 - [GPT5 Marketing](https://gpt5.marketing/): Marketing redesigned for reasoning models
