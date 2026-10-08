@@ -42,7 +42,7 @@
 
 ## Sister companies
 - [Somonitor](https://somonitor.ai/): Always-on listening you can check
-- [Trafix](https://trafix.app/): Paid traffic, measured in profit
+- [FMedia](https://fmedia.marketing/): Paid traffic, measured in profit
 - [AgentC](https://agentc.marketing/): Agents play. Humans conduct.
 - [GPT3 Marketing](https://gpt3.marketing/): Six years of AI content craft
 - [GPT5 Marketing](https://gpt5.marketing/): Marketing redesigned for reasoning models
@@ -190,7 +190,7 @@ Imagine a B2B software company in Singapore loses a deal at the final stage. The
 
 The autopsy asks different questions. What did buyers in this category say online in the months before? Suppose the listening shows a recurring tension: finance teams worry that marketing tools report impressive returns that do not show up in actual profit. Now the loss looks different. The buyer did not choose the cheaper tool because it was cheap. They chose it because it felt less risky to defend to their CFO. Your pitch talked about headline ROAS; their real fear was being blamed for a number that did not add up.
 
-That is a fixable problem. You change the message from "higher returns" to "returns your finance team will believe". Our sister brand Trafix (https://trafix.app/) was built on exactly this tension, tracking true profit rather than flattering ROAS.
+That is a fixable problem. You change the message from "higher returns" to "returns your finance team will believe". Our sister brand FMedia (https://fmedia.marketing/) was built on exactly this tension, tracking true profit rather than flattering ROAS.
 
 ## Checklist: running a 45-minute lost-sale autopsy
 
@@ -744,7 +744,7 @@ Because decisions are scarce, not data. A team that acts on one well-understood 
 
 A recent example: we noticed marketers increasingly asking how to evaluate agencies on something other than reach and ROAS. The decode linked it to a wider tension about vanity metrics and the hidden costs of advertising. The takeaway: add one profit-based measure to your next agency review. We went deeper in vanity metrics: the numbers that make you feel good (/blog/vanity-metrics-the-numbers-that-make-you-feel-good/).
 
-Signals often cross over with the work of our sister brands. When a signal is about paid-media efficiency, the people at Trafix (https://trafix.app/) usually have a view. When it is about listening and early warning, Somonitor (https://somonitor.ai/) does.
+Signals often cross over with the work of our sister brands. When a signal is about paid-media efficiency, the people at FMedia (https://fmedia.marketing/) usually have a view. When it is about listening and early warning, Somonitor (https://somonitor.ai/) does.
 
 ## What are the common mistakes?
 
