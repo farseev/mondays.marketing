@@ -125,3 +125,24 @@ section.dark a.btn{color:var(--btn-ink)}section.dark a.btn.ghost{color:#fff}
 .hx-ctas{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:20px;max-width:100%}.hx-alt{gap:10px;white-space:normal;text-align:left;line-height:1.3;background:rgba(22,32,31,.6);color:#fff;box-shadow:inset 0 0 0 1.5px var(--accent);backdrop-filter:blur(6px)}.hx-alt:hover{filter:none;background:color-mix(in srgb,var(--accent) 22%,var(--hero))}
 .hx-free{flex:none;background:var(--accent);color:var(--hero);font:800 11px/1 var(--fb);letter-spacing:.12em;text-transform:uppercase;padding:5px 8px;border-radius:999px}
 .btn.line{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--accent);white-space:normal;line-height:1.3}
+/* plugin page: SOMIN connection guide (thank-you card + #install) */
+.pl-next{padding-top:16px;border-top:1px solid var(--line)}.pl-next-h{font:700 12px/1.2 var(--fb);letter-spacing:.16em;text-transform:uppercase;color:var(--atext);margin-bottom:10px}
+.pl-mini{margin:0 0 16px;padding-left:22px;font-size:14.5px;line-height:1.5;color:var(--body)}.pl-mini li{margin:0 0 8px;padding-left:4px}.pl-mini li::marker{font-weight:800;color:var(--atext)}
+.pl-guide{width:100%;justify-content:center;background:var(--hero);color:#fff}
+.pl-man{list-style:none;padding:0;margin:40px 0 0}.pl-ms{display:grid;grid-template-columns:56px 1fr;gap:20px;padding:30px 0;border-top:1px solid var(--line)}.pl-ms:first-child{border-top:0;padding-top:0}
+.pl-mn{width:48px;height:48px;border-radius:50%;background:var(--accent);color:var(--btn-ink);display:grid;place-items:center;font:800 20px/1 var(--fh)}
+.pl-mb{min-width:0}.pl-mb h3{margin:8px 0 10px;font-size:1.35rem}.pl-mb p{margin:0 0 12px;max-width:46em}
+.pl-rule{font-size:15px;color:var(--muted);border-left:3px solid var(--accent);padding-left:14px}
+.pl-deep{margin:4px 0 6px;white-space:normal;line-height:1.3;text-align:left;max-width:100%}
+.pl-flds{display:grid;gap:10px;margin:6px 0 16px;max-width:620px}.pl-fld{display:grid;grid-template-columns:110px 1fr auto;align-items:center;gap:10px 12px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.pl-fk{font:700 12px/1.2 var(--fb);letter-spacing:.12em;text-transform:uppercase;color:var(--atext)}.pl-fv{font:600 15px/1.3 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--ink);overflow-wrap:anywhere}.pl-fld small{grid-column:2/4;font-size:13px;color:var(--muted);margin-top:-4px}
+.pl-cp{font:600 13px/1 var(--fb);color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 12px;cursor:pointer}.pl-cp:hover{border-color:var(--atext);color:var(--atext)}
+@media(max-width:560px){.pl-fld{grid-template-columns:1fr auto}.pl-fk{grid-column:1/3}.pl-fld small{grid-column:1/3}.pl-ms{grid-template-columns:40px 1fr;gap:14px}.pl-mn{width:38px;height:38px;font-size:17px}}
+.pl-shots{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:20px;align-items:start}.pl-shots .pl-shot:nth-child(3){grid-column:1/-1;max-width:760px}.pl-shots.one{grid-template-columns:minmax(0,760px)}
+@media(max-width:900px){.pl-shots{grid-template-columns:1fr}.pl-shots .pl-shot:nth-child(3){grid-column:auto}}
+.pl-shot{margin:0;min-width:0}.pl-shot a{display:block;border-radius:12px;overflow:hidden;border:1px solid var(--line);background:#fff;box-shadow:0 14px 30px -24px rgba(22,32,31,.5)}.pl-shot img{width:100%;height:auto}.pl-shot a:hover{border-color:var(--atext)}
+.pl-shot figcaption{font-size:14px;color:var(--muted);margin-top:8px}.pl-shot figcaption b{color:var(--ink)}
+.pl-prompt{background:var(--hero);color:rgba(255,255,255,.9);border-radius:14px;padding:18px 20px;margin:4px 0 0;max-width:760px}.pl-prompt p{margin:0 0 12px;font:500 15px/1.55 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.pl-prompt .pl-cp{background:var(--accent);border-color:var(--accent)}
+.pl-stuck{margin-top:24px;padding:26px;border-radius:var(--r);background:var(--card);border:1px solid var(--line)}.pl-stuck h3{margin:0 0 6px}.pl-stuck .check li{margin:8px 0}
+.pl-states{margin:4px 0 14px}.pl-states li{margin:6px 0}
+.pl-alt{margin-top:8px;border:1px solid var(--line);border-radius:var(--r);padding:0 22px;background:#fff}.pl-alt summary{padding:18px 0;font-size:1.02rem}.pl-alt[open] summary{border-bottom:1px solid var(--line)}.pl-alt-b{padding:16px 0 22px}.pl-alt-b p{max-width:46em}

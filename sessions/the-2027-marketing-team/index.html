@@ -902,6 +902,7 @@ html.rec #notes-drawer, html.rec #goto { display: none !important; }
 @media(max-width:360px){#mm-bar .mm-plug .mm-long{display:none}}
 #mm-hint{display:none;position:fixed;left:16px;right:16px;bottom:22px;z-index:55;text-align:center;font:500 13px/1.45 'Montserrat','Inter',Arial,sans-serif;color:rgba(255,255,255,.7)}
 @media(max-width:760px) and (orientation:portrait){#mm-hint{display:block}}
+.video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0;z-index:6;background:#000}
 html.static #mm-hint{display:none!important}html.static #mm-bar{display:none}html.static #viewport{top:0!important}
 </style>
 </head>
@@ -1045,12 +1046,13 @@ html.static #mm-hint{display:none!important}html.static #mm-bar{display:none}htm
   <div class="body">
     <div class="eyebrow">A real example · 3 of 5 — watch it first</div>
     <div class="video-wrap">
-      <div class="video-frame">
+      <div class="video-frame mm-yt" data-yt="f9B9HGQsx0k" role="button" tabindex="0" aria-label="Play the film">
         <img class="poster" data-asset="burger" alt="">
         <div class="poster-shade"></div>
-        <div class="vf-hint">Played in the room. Search “The Moldy Whopper” to watch the film.</div>
+        <div class="play"><span></span></div>
+        <div class="vf-hint">Click to play the film</div>
       </div>
-      <div class="video-cap">“The Moldy Whopper” — Burger King · DAVID Miami / INGO Stockholm / Publicis · Feb 2020</div>
+      <div class="video-cap">“The Moldy Whopper” — Burger King · DAVID Miami / INGO Stockholm / Publicis · Feb 2020 · video: The One Club for Creativity · <a href="https://www.youtube.com/watch?v=f9B9HGQsx0k" target="_blank" rel="noopener" style="color:#2DBF9C">watch on YouTube ↗</a></div>
     </div>
   </div>
 </section>
@@ -3056,7 +3058,21 @@ window.DECK_DYN={"ie": {"images": [{"key": "ie_0", "name": "ie_p1.png", "w": 160
   document.getElementById('mm-prev').addEventListener('click', function(){ var d = deck(); if (d) { d.go(d.current() - 1); show(); } });
   document.getElementById('mm-next').addEventListener('click', function(){ var d = deck(); if (d) { d.go(d.current() + 1); show(); } });
   window.addEventListener('hashchange', show); document.addEventListener('keyup', show);
-  setInterval(show, 400);
+  var vf = document.querySelector('.video-frame.mm-yt');
+  var vfSlide = vf ? Array.prototype.indexOf.call(document.querySelectorAll('.slide'), vf.closest('.slide')) + 1 : 0;
+  function stopFilm() { if (!vf) return; var f = vf.querySelector('iframe'); if (f) f.parentNode.removeChild(f); vf.classList.remove('has-video'); }
+  function playFilm() {
+    if (!vf || vf.querySelector('iframe')) return;
+    var f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/' + vf.getAttribute('data-yt') + '?autoplay=1&rel=0&playsinline=1&modestbranding=1';
+    f.title = 'The Moldy Whopper'; f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen'; f.setAttribute('allowfullscreen', '');
+    vf.appendChild(f); vf.classList.add('has-video');
+  }
+  if (vf) {
+    vf.addEventListener('click', function (e) { e.stopPropagation(); playFilm(); });
+    vf.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); e.stopPropagation(); playFilm(); } });
+  }
+  setInterval(function () { show(); var d = deck(); if (d && vfSlide && d.current() !== vfSlide) stopFilm(); }, 400);
   window.dispatchEvent(new Event('resize'));
 })();
 </script>
