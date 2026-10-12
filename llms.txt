@@ -18,6 +18,8 @@
 ## Key pages
 - [Home](https://mondays.marketing/): Marketing Mondays: a Singapore community of marketers and a weekly YouTube show decoding one real market signal every Monday. Founded by SOMIN.
 - [Blog](https://mondays.marketing/blog/): ten articles
+- [The 2027 marketing team: the talk](https://mondays.marketing/sessions/the-2027-marketing-team/): the latest session (12 October 2026), as a click-through deck. Aleks Farseev (SOMIN) on the 2027 marketing team, with replays of AI agents working on Grab Singapore social data, ending with the free plugin.
+- [Free agentic marketing plugin for Claude](https://mondays.marketing/plugin/): the workflow shown at Marketing Mondays on 12 October 2026, as a free Claude plugin with eight main skills that listen, decode, decide, make and ship from your SOMIN data.
 - [Brand guidelines](https://mondays.marketing/brand/)
 
 ## Articles
@@ -31,6 +33,14 @@
 - [The one signal method: how we decode a Monday episode](https://mondays.marketing/blog/the-one-signal-method/): How Marketing Mondays picks one real market signal each week, decodes it in minutes and turns it into a takeaway you can use the same day.
 - [Media foresight: retail media, Gen Z and the next budget](https://mondays.marketing/blog/media-foresight-retail-media-and-gen-z/): Signal decoded: why many media plans lack foresight, what retail media networks and Gen Z segmentation change, and how to plan ahead.
 - [When AI answers replace the search results page](https://mondays.marketing/blog/when-ai-answers-replace-the-search-results-page/): Signal decoded: what generative AI answers mean for brand visibility, and how marketers can earn a place in ChatGPT, Gemini and AI Overviews.
+
+## Free agentic marketing plugin for Claude
+Page: https://mondays.marketing/plugin/ (free download after a short form)
+- What it is: a free plugin for Claude (desktop app, claude.ai or Claude Code) that packs the agentic marketing workflow shown at Marketing Mondays on 12 October 2026. Plugin name: marketing-mondays. Version 1.0.0.
+- The loop: listen, decode, decide, make, ship. Eight main skills plus 18 helper skills.
+- Main skills: Pulse (somin-pulse), weekly social performance report; audience and content analysis (competitor-audience-content-analysis); Insight Engine dashboard (somin-insight-engine-dashboard); landscape report (somin-landscape-report); competitor product and market insights (competitor-product-market-insights); content diversity score (content-diversity-scorer); brand deck (somin-brand-deck); strategy to Postly (somin-strategy-to-postly).
+- What you need: Claude with plugins and a SOMIN account (the skills read your own data through the SOMIN connector at https://cloud.somin.ai/_mcp). Figma and Postly connectors are optional.
+- Install: in the Claude app, Customize > Plugins > Add > Upload plugin, then connect SOMIN in the plugin's Connectors tab. In Claude Code, run claude --plugin-dir with the .zip, then /mcp to sign in. Skills appear as /marketing-mondays:<skill>.
 
 ## FAQ
 - **What is Marketing Mondays?** Marketing Mondays is a Singapore community of marketers and a weekly YouTube show. Each Monday episode decodes one real market signal into a clear takeaway. The community meets in person at invite-only sessions and online through LinkedIn and WhatsApp. It was founded and is hosted by SOMIN.

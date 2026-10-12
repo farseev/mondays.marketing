@@ -1,6 +1,7 @@
 # Search and AI answer engines are welcome here.
 User-agent: *
 Allow: /
+Disallow: /downloads/
 
 User-agent: GPTBot
 Allow: /
