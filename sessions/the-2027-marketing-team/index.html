@@ -883,6 +883,15 @@ html.rec #notes-drawer, html.rec #goto { display: none !important; }
 .rp .gxr-cap b { display: block; font: 800 1em/1.2 var(--font); }
 .rp .gxr-cap code { display: block; font: 500 .82em/1.2 var(--mono); color: var(--g3); margin-top: .15em; }
 
+/* loop: button state, a soft fade each time a replay starts over, and the l-key toast */
+.rp-loop { color: var(--g4); }
+.rp-loop.on { color: var(--teal-d); background: var(--g6); }
+.rp.lf .rp-body { animation: rp-loopfade .55s ease-out; }
+@keyframes rp-loopfade { from { opacity: 0; } to { opacity: 1; } }
+.loop-flash { position: fixed; left: 50%; top: 22px; transform: translateX(-50%); z-index: 70; padding: 10px 18px; border-radius: 999px; background: rgba(22,32,31,.92); color: #fff; font: 700 15px/1 var(--font); letter-spacing: .08em; text-transform: uppercase; opacity: 0; transition: opacity .2s ease; pointer-events: none; }
+.loop-flash.show { opacity: 1; }
+html.rec .loop-flash { display: none; }
+
 </style>
 <style>
 :root{--mmbar:48px}
@@ -913,7 +922,7 @@ html.static #mm-hint{display:none!important}html.static #mm-bar{display:none}htm
 <span class="mm-nav"><button type="button" id="mm-prev" aria-label="Previous slide">‹</button><span class="mm-n" id="mm-n" aria-live="polite"></span><button type="button" id="mm-next" aria-label="Next slide">›</button></span>
 <a class="mm-plug" href="../../plugin/index.html">Get the <span class="mm-long">free </span>plugin</a>
 </nav>
-<p id="mm-hint">Turn your phone sideways for a bigger view. Tap › or the right side of a slide to move on; the agent replays play by themselves.</p>
+<p id="mm-hint">Turn your phone sideways for a bigger view. Tap › or the right side of a slide to move on; the agent replays and the film loop by themselves.</p>
 <script>if(!/[?&](replay|static)=/.test(location.search)){window.MM_BAR=document.getElementById('mm-bar').offsetHeight||48;}else{document.documentElement.classList.add('static');}</script>
 
 <div id="viewport">
@@ -1050,7 +1059,7 @@ html.static #mm-hint{display:none!important}html.static #mm-bar{display:none}htm
         <img class="poster" data-asset="burger" alt="">
         <div class="poster-shade"></div>
         <div class="play"><span></span></div>
-        <div class="vf-hint">Click to play the film</div>
+        <div class="vf-hint">The film starts by itself and loops · sound off</div>
       </div>
       <div class="video-cap">“The Moldy Whopper” — Burger King · DAVID Miami / INGO Stockholm / Publicis · Feb 2020 · video: The One Club for Creativity · <a href="https://www.youtube.com/watch?v=f9B9HGQsx0k" target="_blank" rel="noopener" style="color:#2DBF9C">watch on YouTube ↗</a></div>
     </div>
@@ -1350,7 +1359,7 @@ html.static #mm-hint{display:none!important}html.static #mm-bar{display:none}htm
 </div><!-- /viewport -->
 
 <div id="notes-drawer" aria-live="polite" hidden>
-  <div class="nd-head"><span id="nd-title"></span><span class="nd-keys">n close · ← → navigate · p play/pause · r restart · f fullscreen</span></div>
+  <div class="nd-head"><span id="nd-title"></span><span class="nd-keys">n close · ← → navigate · p play/pause · r restart · l loop · f fullscreen</span></div>
   <div id="nd-body"></div>
 </div>
 <div id="goto" hidden></div>
@@ -2014,6 +2023,7 @@ window.DECK_DYN={"ie": {"images": [{"key": "ie_0", "name": "ie_p1.png", "w": 160
   var Q = new URLSearchParams(location.search);
   var REC_ID = Q.get('replay');
   var STATIC = /^(1|true|yes)$/i.test(Q.get('static') || '');
+  var LOOP = !/^(0|false|no|off)$/i.test(Q.get('loop') || '');   // replays and the film loop unless ?loop=0
   var T_PARAM = Q.get('t');
   var A = window.ASSETS || {}, AS = window.ASSET_SIZES || {}, DYN = window.DECK_DYN || {}, RP = window.REPLAYS || {};
   var W = 1920, H = 1080;
@@ -2054,6 +2064,7 @@ window.DECK_DYN={"ie": {"images": [{"key": "ie_0", "name": "ie_p1.png", "w": 160
   function Player(host, id, opts) {
     this.id = id; this.spec = RP[id]; this.opts = opts || {};
     this.host = host; this.t = 0; this.playing = false; this.speed = 1; this.measured = false; this.ended = false;
+    this.loop = this.opts.loop != null ? !!this.opts.loop : LOOP; this.loops = 0;
     if (!this.spec) { host.appendChild(div('ph-box', '<div class="pbt">Replay “' + esc(id) + '” not found</div>')); this.total = 0; return; }
     this.compile();
     this.build();
@@ -2121,7 +2132,8 @@ window.DECK_DYN={"ie": {"images": [{"key": "ie_0", "name": "ie_p1.png", "w": 160
       '<button class="rp-btn rp-restart" aria-label="Restart (r)"><svg viewBox="0 0 16 16"><path d="M8 2.2a5.8 5.8 0 1 1-5.6 7.3h1.7A4.2 4.2 0 1 0 8 3.8v2.4L4.6 3 8 -.2z"/></svg></button>' +
       '<div class="rp-scrub" role="slider" aria-label="Replay position" tabindex="0"><div class="trk"></div><div class="fil"></div><div class="knob"></div></div>' +
       '<div class="rp-time">0:00 / 0:00</div>' +
-      '<button class="rp-btn rp-speed" aria-label="Playback speed">1×</button></div>';
+      '<button class="rp-btn rp-speed" aria-label="Playback speed">1×</button>' +
+      '<button class="rp-btn rp-loop" aria-label="Loop (l)" title="Loop (l)"><svg viewBox="0 0 16 16"><path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" d="M2.8 7.2V6a2 2 0 0 1 2-2h8.4M11 1.8 13.2 4 11 6.2M13.2 8.8V10a2 2 0 0 1-2 2H2.8M5 14.2 2.8 12 5 9.8"/></svg></button></div>';
     this.host.appendChild(root);
     this.left = root.querySelector('.rp-left');
     this.log = root.querySelector('.rp-log');
@@ -2172,6 +2184,9 @@ window.DECK_DYN={"ie": {"images": [{"key": "ie_0", "name": "ie_p1.png", "w": 160
     root.querySelector('.rp-restart').addEventListener('click', function (e) { e.stopPropagation(); self.restart(true); });
     var spd = root.querySelector('.rp-speed');
     spd.addEventListener('click', function (e) { e.stopPropagation(); self.speed = self.speed === 1 ? 2 : 1; spd.textContent = self.speed + '×'; });
+    this.loopBtn = root.querySelector('.rp-loop');
+    this.loopBtn.addEventListener('click', function (e) { e.stopPropagation(); Player.setLoop(!self.loop); });
+    this.showLoop();
     var dragging = false;
     var seekAt = function (e) { var r = scrub.getBoundingClientRect(); var f = clamp((e.clientX - r.left) / r.width); self.seek(f * self.total); };
     scrub.addEventListener('pointerdown', function (e) { e.stopPropagation(); dragging = true; self.wasPlaying = self.playing; self.pause(); try { scrub.setPointerCapture(e.pointerId); } catch (x) {} seekAt(e); });
@@ -2362,6 +2377,10 @@ window.DECK_DYN={"ie": {"images": [{"key": "ie_0", "name": "ie_p1.png", "w": 160
   Player.prototype.toggle = function () { if (this.playing) this.pause(); else this.play(); };
   Player.prototype.seek = function (ms) { this.t = clamp(ms, 0, this.total); this.last = performance.now(); this.render(this.t); };
   Player.prototype.restart = function (play) { this.seek(0); if (play) this.play(); };
+  Player.prototype.showLoop = function () { if (!this.loopBtn) return; this.loopBtn.classList.toggle('on', this.loop); this.loopBtn.setAttribute('aria-pressed', this.loop ? 'true' : 'false'); if (this.root) this.root.classList.toggle('looping', this.loop); };
+  Player.prototype.wrap = function () { this.loops++; var r = this.root; if (!r) return; r.classList.remove('lf'); void r.offsetWidth; r.classList.add('lf'); };
+  /* one switch for every replay in the deck (button on any player, or the l key) */
+  Player.setLoop = function (on) { LOOP = !!on; Player.all.forEach(function (p) { if (p.opts.loop === false) return; p.loop = LOOP; p.showLoop(); }); if (Player.onLoopChange) Player.onLoopChange(LOOP); };
 
   var rafOn = false;
   Player.kick = function () { if (!rafOn) { rafOn = true; requestAnimationFrame(Player.tick); } };
@@ -2372,7 +2391,10 @@ window.DECK_DYN={"ie": {"images": [{"key": "ie_0", "name": "ie_p1.png", "w": 160
       any = true;
       var dt = Math.min(100, now - (p.last || now)) * p.speed; p.last = now;
       var t = p.t + dt;
-      if (t >= p.total) { t = p.total; p.playing = false; p.ended = true; }
+      if (t >= p.total) {
+        if (p.loop) { t = 0; p.wrap(); }                                  // back to the first prompt and keep going
+        else { t = p.total; p.playing = false; p.ended = true; }
+      }
       p.render(t);
       if (p.ended && p.onEnd) p.onEnd();
     });
@@ -2921,14 +2943,15 @@ window.DECK_DYN={"ie": {"images": [{"key": "ie_0", "name": "ie_p1.png", "w": 160
     var prev = cur;
     slides.forEach(function (s, i) { s.classList.toggle('active', i === n); s.setAttribute('aria-hidden', i === n ? 'false' : 'true'); });
     cur = n;
-    if (prev !== n && players[prev]) { players[prev].pause(); players[prev].seek(0); }
+    if (prev !== n && players[prev]) { players[prev].pause(); if (!players[prev].loop) players[prev].seek(0); }
+    if (prev !== n) film(n);
     var p = players[n];
     if (p) {
       if (STATIC) {
         var tv = T_PARAM != null ? parseFloat(T_PARAM) : null;
         p.playing = false;
         p.seek(tv == null || isNaN(tv) ? p.total : (tv <= 1 ? tv * p.total : tv));
-      } else if (!(opts && opts.noplay)) { p.seek(0); p.play(); }
+      } else if (!(opts && opts.noplay)) { if (!p.loop) p.seek(0); p.play(); }
     }
     document.getElementById('progress').firstChild.style.width = ((n + 1) / N * 100) + '%';
     if (!STATIC) { try { history.replaceState(null, '', '#' + (n + 1)); } catch (e) {} }
@@ -2963,11 +2986,27 @@ window.DECK_DYN={"ie": {"images": [{"key": "ie_0", "name": "ie_p1.png", "w": 160
     vInput.addEventListener('change', function () {
       var f = vInput.files && vInput.files[0]; if (!f) return;
       var old = vFrame.querySelector('video'); if (old) { URL.revokeObjectURL(old.src); old.remove(); }
-      var v = document.createElement('video'); v.src = URL.createObjectURL(f); v.controls = true; v.autoplay = true; v.playsInline = true;
+      var v = document.createElement('video'); v.src = URL.createObjectURL(f); v.controls = true; v.autoplay = true; v.playsInline = true; v.loop = LOOP;
       v.addEventListener('click', function (e) { e.stopPropagation(); });
       vFrame.appendChild(v); vFrame.classList.add('has-video');
       v.play().catch(function () {});
     });
+  }
+
+  function film(n) {
+    if (!vFrame) return;
+    var v = vFrame.querySelector('video'); if (!v) return;
+    if (slides[n] && slides[n].contains(vFrame)) { v.loop = LOOP; v.play().catch(function () {}); } else v.pause();
+  }
+  Player.onLoopChange = function (on) {
+    var v = vFrame && vFrame.querySelector('video'); if (v) v.loop = on;
+    var p = players[cur]; if (on && p && !p.playing && p.ended) p.play();
+    flash(on ? 'Loop on' : 'Loop off');
+  };
+  var flashEl = null, flashT = null;
+  function flash(txt) {
+    if (!flashEl) { flashEl = div('loop-flash'); document.body.appendChild(flashEl); }
+    flashEl.textContent = txt; flashEl.classList.add('show'); clearTimeout(flashT); flashT = setTimeout(function () { flashEl.classList.remove('show'); }, 1200);
   }
 
   function onKey(e) {
@@ -2988,6 +3027,7 @@ window.DECK_DYN={"ie": {"images": [{"key": "ie_0", "name": "ie_p1.png", "w": 160
       case 'n': case 'N': toggleNotes(); break;
       case 'p': case 'P': if (p) p.toggle(); break;
       case 'r': case 'R': if (p) p.restart(true); break;
+      case 'l': case 'L': Player.setLoop(!LOOP); break;
       case 'v': case 'V': if (vFrame && slides[cur].contains(vFrame)) openVideo(); break;
     }
   }
@@ -3006,7 +3046,7 @@ window.DECK_DYN={"ie": {"images": [{"key": "ie_0", "name": "ie_p1.png", "w": 160
     document.getElementById('progress').style.display = 'none';
     var host = div('rec-host'); host.style.cssText = 'position:absolute;inset:0;background:#fff';
     stage.appendChild(host);
-    var p = new Player(host, REC_ID, { full: true, controls: false });
+    var p = new Player(host, REC_ID, { full: true, controls: false, loop: false });
     window.__replayDone = false;
     window.__replayTotal = p.total;
     window.__replay = { player: p, seek: function (ms) { p.playing = false; p.seek(ms); }, duration: p.total, play: function () { p.restart(true); } };
@@ -3038,7 +3078,7 @@ window.DECK_DYN={"ie": {"images": [{"key": "ie_0", "name": "ie_p1.png", "w": 160
     whenReady(function () {
       Player.all.forEach(function (p) { p.measured = false; p.render(p.t); });
       window.__deckReady = true;
-      window.__deck = { go: go, players: players, N: N, current: function () { return cur + 1; } };
+      window.__deck = { go: go, players: players, N: N, current: function () { return cur + 1; }, loop: function (v) { if (v != null) Player.setLoop(v); return LOOP; } };
       if (!STATIC && players[cur]) { players[cur].seek(0); players[cur].play(); }
       else if (STATIC && players[cur]) go(cur + 1);
     });
@@ -3060,11 +3100,16 @@ window.DECK_DYN={"ie": {"images": [{"key": "ie_0", "name": "ie_p1.png", "w": 160
   window.addEventListener('hashchange', show); document.addEventListener('keyup', show);
   var vf = document.querySelector('.video-frame.mm-yt');
   var vfSlide = vf ? Array.prototype.indexOf.call(document.querySelectorAll('.slide'), vf.closest('.slide')) + 1 : 0;
-  function stopFilm() { if (!vf) return; var f = vf.querySelector('iframe'); if (f) f.parentNode.removeChild(f); vf.classList.remove('has-video'); }
+  // the film loops (muted, so browsers allow it to start by itself); it pauses when you leave the slide and carries on when you return
+  function yt(f, func, args) { try { f.contentWindow.postMessage(JSON.stringify({ event: 'command', func: func, args: args || [] }), '*'); } catch (e) {} }
+  function pauseFilm() { var f = vf && vf.querySelector('iframe'); if (f) yt(f, 'pauseVideo'); }
   function playFilm() {
-    if (!vf || vf.querySelector('iframe')) return;
-    var f = document.createElement('iframe');
-    f.src = 'https://www.youtube-nocookie.com/embed/' + vf.getAttribute('data-yt') + '?autoplay=1&rel=0&playsinline=1&modestbranding=1';
+    if (!vf) return;
+    var f = vf.querySelector('iframe');
+    if (f) { yt(f, 'playVideo'); return; }
+    var id = vf.getAttribute('data-yt');
+    f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&mute=1&loop=1&playlist=' + id + '&rel=0&playsinline=1&modestbranding=1&enablejsapi=1';
     f.title = 'The Moldy Whopper'; f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen'; f.setAttribute('allowfullscreen', '');
     vf.appendChild(f); vf.classList.add('has-video');
   }
@@ -3072,7 +3117,12 @@ window.DECK_DYN={"ie": {"images": [{"key": "ie_0", "name": "ie_p1.png", "w": 160
     vf.addEventListener('click', function (e) { e.stopPropagation(); playFilm(); });
     vf.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); e.stopPropagation(); playFilm(); } });
   }
-  setInterval(function () { show(); var d = deck(); if (d && vfSlide && d.current() !== vfSlide) stopFilm(); }, 400);
+  var filmOn = false;
+  setInterval(function () {
+    show(); var d = deck(); if (!d || !vfSlide) return;
+    var on = d.current() === vfSlide;
+    if (on !== filmOn) { filmOn = on; if (on) playFilm(); else pauseFilm(); }
+  }, 400);
   window.dispatchEvent(new Event('resize'));
 })();
 </script>
