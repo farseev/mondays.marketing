@@ -39,4 +39,5 @@ Allow: /
 User-agent: Googlebot
 Allow: /
 
+# Sitemap index: lists sitemap-en.xml and one sitemap per language (sitemap-<code>.xml)
 Sitemap: https://mondays.marketing/sitemap.xml
