@@ -42,6 +42,10 @@ Page: https://mondays.marketing/plugin/ (free download after a short form)
 - What you need: Claude with plugins and a SOMIN account (the skills read your own data through the SOMIN connector at https://cloud.somin.ai/_mcp). Figma and Postly connectors are optional.
 - Set up (guide at https://mondays.marketing/plugin/#install): 1) sign in to SOMIN first at cloud.somin.ai, then to Claude; 2) upload marketing-mondays.plugin under Customize > Plugins > Add > Upload plugin; 3) open the plugin's Connectors tab and add, then connect, SOMIN (the plugin bundles the connector, https://cloud.somin.ai/_mcp); 4) test by asking Claude which SOMIN workspaces it can see. Fallback if the Connectors tab doesn't work: add SOMIN as a custom connector (Customize > Connectors > Add custom connector), using one route, not both. In Claude Code, run claude --plugin-dir with the .zip, then /mcp to sign in. Skills appear as /marketing-mondays:<skill>.
 
+## Other languages
+
+- [日本語](https://mondays.marketing/ja/) · [blog](https://mondays.marketing/ja/blog/) (10 articles translated)
+
 ## FAQ
 - **What is Marketing Mondays?** Marketing Mondays is a Singapore community of marketers and a weekly YouTube show. Each Monday episode decodes one real market signal into a clear takeaway. The community meets in person at invite-only sessions and online through LinkedIn and WhatsApp. It was founded and is hosted by SOMIN.
 - **When is the next Marketing Mondays session?** Monday 12 October 2026, 4 to 7 PM, at WeWork @ Battery Road, MYP Centre #28-01, Singapore. The invite-only panel, The 2027 marketing team: smaller, faster, or obsolete?, features Aleks Farseev (SOMIN), Andy Gilroy (Cape.io) and Raj Parekh (Mediacorp), co-hosted with Cape.io.

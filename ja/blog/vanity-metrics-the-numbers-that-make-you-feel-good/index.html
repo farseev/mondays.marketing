@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>バニティメトリクス：気分を良くしてくれるだけの数字</title>
+<meta name="description" content="シグナル解読：400%のROASがなぜ損失を隠しうるのか、レポートの中のバニティメトリクスをどう見抜くか、そして代わりに何を測るべきか。">
+<link rel="canonical" href="https://mondays.marketing/ja/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<link rel="alternate" hreflang="en-SG" href="https://mondays.marketing/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<link rel="alternate" hreflang="ja" href="https://mondays.marketing/ja/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<link rel="alternate" hreflang="x-default" href="https://mondays.marketing/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#16201F">
+<meta property="og:site_name" content="Marketing Mondays">
+<meta property="og:type" content="website">
+<meta property="og:title" content="バニティメトリクス：気分を良くしてくれるだけの数字">
+<meta property="og:description" content="バニティメトリクスとは、レポート上では見栄えがよいものの、マーケティングが事業に利益をもたらしたかどうかを教えてくれない数字のことです。">
+<meta property="og:url" content="https://mondays.marketing/ja/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<meta property="og:image" content="https://mondays.marketing/assets/img/og/vanity-metrics-the-numbers-that-make-you-feel-good.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="バニティメトリクス：気分を良くしてくれるだけの数字、Marketing Mondays">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:locale:alternate" content="en_SG">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="バニティメトリクス：気分を良くしてくれるだけの数字">
+<meta name="twitter:description" content="バニティメトリクスとは、レポート上では見栄えがよいものの、マーケティングが事業に利益をもたらしたかどうかを教えてくれない数字のことです。">
+<meta name="twitter:image" content="https://mondays.marketing/assets/img/og/vanity-metrics-the-numbers-that-make-you-feel-good.jpg">
+<meta name="twitter:image:alt" content="バニティメトリクス：気分を良くしてくれるだけの数字、Marketing Mondays">
+<meta name="application-name" content="Marketing Mondays"><meta name="apple-mobile-web-app-title" content="Marketing Mondays">
+<meta property="article:author" content="Marketing Mondays"><meta property="article:published_time" content="2026-09-07"><meta property="article:section" content="測定"><meta name="keywords" content="vanity metrics, true ROAS, marketing measurement, agency reporting, profit metrics">
+<link rel="icon" href="../../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="../../../assets/img/icon-180.png">
+<link rel="manifest" href="../../../site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Marketing Mondaysブログ" href="https://mondays.marketing/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Noto+Sans+JP:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../../../assets/site.css">
+<style id="i18n-font">:root{--fh:'Montserrat','Noto Sans JP',system-ui,sans-serif;--fb:'Montserrat','Noto Sans JP',system-ui,sans-serif}</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YKL08XN61P"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-YKL08XN61P');document.addEventListener('click',function(e){var a=e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href')||'';if(/^mailto:/.test(h))return gtag('event','generate_lead',{method:'email',link_text:(a.textContent||'').trim().slice(0,80)});var m=h.match(/^https?:\/\/(?:www\.)?((?:cloud\.|share\.)?somin\.ai)(\/[^?#]*)?/);if(m)gtag('event','somin_click',{destination:m[1],path:(m[2]||'/').slice(0,80),link_text:(a.textContent||'').trim().slice(0,80)});});document.addEventListener('submit',function(e){var f=e.target;if(f&&f.tagName==='FORM')gtag('event','generate_lead',{method:'form',form_class:String(f.className||'').slice(0,40)});},true);</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"バニティメトリクス：気分を良くしてくれるだけの数字","description":"シグナル解読：400%のROASがなぜ損失を隠しうるのか、レポートの中のバニティメトリクスをどう見抜くか、そして代わりに何を測るべきか。","datePublished":"2026-09-07","dateModified":"2026-09-07","image":["https://mondays.marketing/assets/img/og/vanity-metrics-the-numbers-that-make-you-feel-good.jpg","https://mondays.marketing/assets/img/a04.webp"],"url":"https://mondays.marketing/ja/blog/vanity-metrics-the-numbers-that-make-you-feel-good/","mainEntityOfPage":"https://mondays.marketing/ja/blog/vanity-metrics-the-numbers-that-make-you-feel-good/","keywords":"vanity metrics, true ROAS, marketing measurement, agency reporting, profit metrics","articleSection":"測定","inLanguage":"ja","wordCount":940,"author":{"@type":"Organization","name":"Marketing Mondays editorial team","url":"https://mondays.marketing/"},"publisher":{"@id":"https://mondays.marketing/#org"},"mentions":[{"@type":"Organization","name":"SOMIN","url":"https://somin.ai/"}],"speakable":{"@type":"SpeakableSpecification","cssSelector":[".answer"]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Marketing Mondays","item":"https://mondays.marketing/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://mondays.marketing/ja/blog/"},{"@type":"ListItem","position":3,"name":"バニティメトリクス：気分を良くしてくれるだけの数字","item":"https://mondays.marketing/ja/blog/vanity-metrics-the-numbers-that-make-you-feel-good/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"マーケティングにおけるバニティメトリクスとは何ですか？","acceptedAnswer":{"@type":"Answer","text":"見栄えはよいものの、マーケティングが事業成果を改善したかどうかを示さない数字です。たとえば、リーチ、いいね数、あるいはコストや返品を考慮せずに報告されるプラットフォームのROASなどです。"}},{"@type":"Question","name":"ROASはバニティメトリクスですか？","acceptedAnswer":{"@type":"Answer","text":"そうなりえます。プラットフォームのROASは、製品原価、返品、値引き、手数料、インクリメンタリティを無視しています。単独で使うと、損失を出しているキャンペーンでも高いリターンを示すことがあります。"}},{"@type":"Question","name":"バニティメトリクスの代わりに何を使うべきですか？","acceptedAnswer":{"@type":"Answer","text":"マーケティングコスト控除後の貢献利益、顧客生涯価値に対する獲得コスト、インクリメンタルリフト、関連する会話におけるシェア、そして出稿前のクリエイティブスコアです。"}}]},{"@type":"Organization","@id":"https://mondays.marketing/#org","name":"Marketing Mondays","url":"https://mondays.marketing/","logo":"https://mondays.marketing/brand/logo.svg","email":"ask@mondays.marketing","description":"Marketing Mondays is a Singapore community of marketers and a weekly YouTube show. Each episode decodes one real signal, such as a competitor's play, a shift in what audiences want or a winning campaign, and turns it into a clear takeaway. It was founded and is hosted by SOMIN, its technology partner and the data engine behind every episode.","slogan":"One real signal, decoded every Monday","areaServed":"Singapore and Asia-Pacific","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"},"contactPoint":{"@type":"ContactPoint","email":"ask@mondays.marketing","contactType":"sales"},"knowsAbout":["2027 marketing team","AEO","AI Overviews","AI agents marketing","AI answers","AI brand marketing","AI in creative","AI marketing jobs","AI media planning","AI skills marketers","Block71 Singapore","Gen Z marketing","Marketing Mondays YouTube","agency reporting","audience segmentation","audience signals","brand differentiation","brand narrative","brand visibility AI","competitor signals","customer journey","evidence-based marketing","future of marketing jobs","generative AI content","generative engine optimisation"],"memberOf":{"@type":"Organization","name":"SOMIN partner network","url":"https://somin.ai/"},"parentOrganization":{"@type":"Organization","name":"SOMIN","url":"https://somin.ai/"},"sameAs":["https://www.youtube.com/channel/UCGb61UzazCWgJ8H_1_oy5Kg"]}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">コンテンツへスキップ</a>
+<header class="site"><div class="wrap">
+<a class="logo" href="../../index.html" aria-label="Marketing Mondays ホーム"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 40" width="300" height="40" role="img" aria-label="Marketing Mondays ロゴ"><rect x="0" y="0" width="40" height="40" rx="10" fill="#2DBF9C"/><path d="M10 29V12l10 10 10-10v17" fill="none" stroke="#16201F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="50" y="28" font-family="'Montserrat', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="0"><tspan fill="#16201F">Marketing</tspan><tspan fill="#2DBF9C"> Mondays</tspan></text></svg></a>
+<nav aria-label="メイン"><a href="../../index.html#work">実績</a><a href="../../index.html#services">セッション</a><a href="../index.html">エピソード</a><a href="../../index.html#faq">よくある質問</a><a href="../../../brand/index.html">ブランド</a><a class="btn" href="mailto:ask@mondays.marketing?subject=Marketing%20Mondays%3A%20invite%20request">招待をリクエスト</a><!--i18n:langsw--><details class="langsw" translate="no"><summary aria-label="言語: 日本語"><span>日本語</span></summary><ul><li><a href="../../../blog/vanity-metrics-the-numbers-that-make-you-feel-good/index.html" hreflang="en-SG" lang="en-SG">English</a></li><li><a href="index.html" hreflang="ja" lang="ja" aria-current="page">日本語</a></li></ul></details><script>document.addEventListener('click',function(e){var a=e.target.closest('.langsw a[hreflang]');if(a&&typeof gtag==='function')gtag('event','language_switch',{language_from:document.documentElement.lang,language_to:a.getAttribute('hreflang'),page_path:location.pathname});var d=document.querySelector('.langsw[open]');if(d&&!d.contains(e.target))d.removeAttribute('open');});</script><!--/i18n:langsw--></nav>
+</div></header>
+<main id="main">
+<article class="post"><div class="wrap narrow head"><nav class="crumbs" aria-label="パンくずリスト"><a href="../../index.html">Marketing Mondays</a> / <a href="../index.html">ブログ</a> / 測定</nav>
+<h1 style="margin-top:18px">バニティメトリクス：気分を良くしてくれるだけの数字</h1><p class="meta">2026年9月7日 · 7分で読めます · Marketing Mondays編集部 · <a href="#faq">よくある質問</a></p></div>
+<div class="wrap" style="max-width:1000px"><figure class="cover" style="margin:0 0 40px"><img src="../../../assets/img/a04.webp" alt="長い影を落とす、小さく中身の詰まった光るコインの山の横に立つ、背の高い中空のガラスの棒グラフ" width="1536" height="1024" fetchpriority="high"></figure></div>
+<div class="wrap narrow prose"><p class="answer">バニティメトリクスとは、レポート上では見栄えがよいものの、マーケティングが事業に利益をもたらしたかどうかを教えてくれない数字のことです。リーチ、いいね数、単純なフォロワー増加、そして表面的なROASでさえ、これにあたる可能性があります。判断基準はシンプルです：その数字が上がったのに利益が上がらなかったなら、その意思決定にとってそれはバニティメトリクスだったということです。</p>
+<p>どのマーケターにも、内心では自信のなかったスライドを発表した経験があるはずです。大きなリーチの数字。400%のROAS。エンゲージメントの急増。会議室の皆がうなずき、話は次へ進みますが、小さな声が「そのどれかに意味はあったのか」と問いかけます。今回のMarketing Mondaysのシグナルは、その声について、そしてなぜその声に耳を傾けるべきかについてです。</p>
+<h2>なぜバニティメトリクスはなくならないのか？</h2>
+<p>人を守ってくれるからです。マーケティングの価値を証明するようプレッシャーをかけられているとき、そして多くのマーケターが正当に評価されていないと感じているとき、大きな数字は盾のように感じられます。エージェンシーは見栄えのよいレポートで評価されます。プラットフォームは自社の広告在庫をよく見せる数字を報告します。チェーンの中の誰にも、居心地の悪い問いを投げかける強い理由がないのです。</p>
+<p>マーケティングコミュニティ全体のリスニングデータは、その結果をはっきりと示しています：収益性のギャップです。ブランドは返品、手数料、値引き、そして顧客獲得の真のコストを無視したまま、ROASとCPAを最適化しています。エージェンシーは、クライアントが重視する成果ではなく、自分たちがコントロールできる指標を追いかけています。財務部門から「お金はどこへ消えたのか」と問われるまで、誰もが忙しく、成功していると感じています。</p>
+<h2>400%のROASがなぜ損失を出しうるのか？</h2>
+<p>説明のための数字を使った具体例をご紹介します。あるブランドが広告にS$10,000を費やし、プラットフォームはS$40,000の売上をその広告に帰属させています。これはROAS 400%で、非常に優秀に見えます。</p>
+<ul>
+<li>S$40,000の売上に対する製品原価：S$18,000。</li>
+<li>返品と返金：S$4,000の売上が取り消し。</li>
+<li>販売を成立させるために使った値引き：S$3,000。</li>
+<li>決済手数料とプラットフォーム手数料：S$1,500。</li>
+<li>エージェンシー費用とツール費用：S$3,000。</li>
+<li>広告がなくても発生していたであろう売上：一定の割合、多くの場合は不明。</li>
+</ul>
+<p>これらを合計すると、そのS$10,000による実際の貢献は、ゼロに近いかマイナスになりえます。400%はプラットフォーム上の数字としては本物でした。しかし事業の数字としては、バニティメトリクスだったのです。</p>
+<h2>通常、どの指標がバニティで、どの指標が有用なのか？</h2>
+<h3>意思決定によっては、多くの場合バニティ</h3>
+<ul>
+<li>注目度や想起の指標を伴わないインプレッションとリーチ。</li>
+<li>購買意向との結びつきがないいいね数とフォロワー数。</li>
+<li>コスト、返品、インクリメンタリティを考慮しない、プラットフォームが報告するROAS。</li>
+<li>公開したコンテンツの量。</li>
+</ul>
+<h3>通常は有用</h3>
+<ul>
+<li>マーケティングコスト控除後の貢献利益。</li>
+<li>顧客生涯価値に対する新規顧客獲得コスト。</li>
+<li>統制されたテストによるインクリメンタルリフト。</li>
+<li>あなたのカテゴリーで重要な会話におけるシェア。</li>
+<li>成果を予測する、出稿前のクリエイティブスコア。</li>
+</ul>
+<h2>チェックリスト：次のレポートを15分で監査する</h2>
+<ol>
+<li>ページ上のすべての指標について、それが支える意思決定を書き出す。書けなければ削除する。</li>
+<li>費用を支払っている相手のプラットフォームが報告している数字をひとつ見つける。独立した同等の数字を求める。</li>
+<li>返品、値引き、手数料がどこかで差し引かれているか確認する。</li>
+<li>その支出がなかったら何が起きていたかを問う。</li>
+<li>先を見据えたシグナルをひとつ加える：来月に影響を与える、オーディエンスが今言っていること。</li>
+</ol>
+<h2>代わりに何を測定すべきか？</h2>
+<p>私たちの立場は、測定はお金を使う前から始めるべきだというものです。バニティな結果を避ける最適なタイミングは、そもそもコンバージョンするはずのなかったクリエイティブに予算を投じる前です。Marketing Mondaysを支えるAIオーディエンスリサーチ・プラットフォームのSOMINは、<a href="https://somin.ai/somin-paid-media/" rel="noopener">ペイドメディア・インテリジェンス</a>によって出稿前にクリエイティブのクリックされやすさをスコア化し、<a href="https://somin.ai/somin-reporting/" rel="noopener">レポーティングツール</a>によって、プラットフォームの数字だけでなくオーディエンスのシグナルにまで結果を結びつけます。測定を軸とするエージェンシーがこれをどう考えているかについては、<a href="https://somin.ai/agencies-analytic-partners-case-study/" rel="noopener">Analytic Partnersの導入事例</a>が一読の価値があります。</p>
+<p>リスニングの面では、シェア・オブ・ボイスが意味を持つのは、それが適切な会話におけるシェアである場合だけです。まさにその理由から、姉妹アプリの<a href="https://somonitor.ai/" rel="noopener">Somonitor</a>は、単純な言及数ではなく、会話のシグナルと早期警戒に焦点を当てています。</p>
+<h2>自分の仕事を攻撃しているように見せずに、この問題をどう提起するか？</h2>
+<p>ここが、人々を黙らせてしまう部分です。チームがこれまで称えてきた指標に異議を唱えるのは、リスクに感じられます。3つのアプローチが役立ちます。</p>
+<ul>
+<li><strong>アップグレードとして伝える。</strong>「この数字は良いものです。これを財務部門にも信じてもらえるようにする方法はこうです。」</li>
+<li><strong>仲間を連れてくる。</strong>同じ転換を経験した社外の誰かは信頼性を高めてくれます。それがMarketing Mondaysのようなコミュニティが存在する理由のひとつです。</li>
+<li><strong>小さく始める。</strong>ひとつのレポート、ひとつのキャンペーン、ひとつの指標を直す。その違いを示しましょう。</li>
+</ul>
+<h2>今週の月曜日に何をすべきか？</h2><p>直近で発表したレポートを手に取り、最も誇らしかった数字をひとつ丸で囲んでください。そして、それについて3つの問いを立てます。レポートに表れていない、その数字の裏にあるコストは何か？まったく費用をかけなかったら、その数字はどうなっていたか？そして、それは実際にどの意思決定を変えたのか？3つ目の問いに答えられなければ、最初のバニティメトリクスが見つかったことになります。翌月、それを貢献利益に結びついた指標に置き換え、その理由をステークホルダーに伝えましょう。私たちの経験では、財務チームは、求められる前により厳しい数字を自ら差し出すマーケターに好意的に反応します。それは、マーケティングを弁護する立場から、より多くの予算を任される立場へと移る最も速い方法のひとつです。見つけたことはコミュニティに持ち寄ってください。同じプラットフォームを相手に、同じ戦いをすでに経験した誰かがいるはずです。</p><h2>用語の定義</h2>
+<ul>
+<li><strong>ROAS：</strong>広告費用対効果。通常は、広告に帰属する売上を広告費で割ったもの。</li>
+<li><strong>真のROAS（利益ROAS）：</strong>同じ考え方を、コスト、返品、手数料を差し引いた後の貢献利益で計算したもの。</li>
+<li><strong>インクリメンタリティ：</strong>マーケティングがなければ生じなかった成果の割合。</li>
+</ul>
+<p>同じ課題の人間的な側面については、見栄えのよい指標が、買い手が去っていった本当の理由を隠していた<a href="../the-autopsy-of-a-lost-sale/index.html">失注の解剖</a>をご覧ください。</p>
+<blockquote>幻想を追いかけると、本物の機会が見えなくなります。気分を良くしてくれる数字が、事業を良くしてくれる数字であることはめったにありません。</blockquote>
+<section id="faq" style="padding:40px 0 0"><h2>よくある質問</h2><details><summary>マーケティングにおけるバニティメトリクスとは何ですか？</summary><p>見栄えはよいものの、マーケティングが事業成果を改善したかどうかを示さない数字です。たとえば、リーチ、いいね数、あるいはコストや返品を考慮せずに報告されるプラットフォームのROASなどです。</p></details><details><summary>ROASはバニティメトリクスですか？</summary><p>そうなりえます。プラットフォームのROASは、製品原価、返品、値引き、手数料、インクリメンタリティを無視しています。単独で使うと、損失を出しているキャンペーンでも高いリターンを示すことがあります。</p></details><details><summary>バニティメトリクスの代わりに何を使うべきですか？</summary><p>マーケティングコスト控除後の貢献利益、顧客生涯価値に対する獲得コスト、インクリメンタルリフト、関連する会話におけるシェア、そして出稿前のクリエイティブスコアです。</p></details></section>
+<div class="cta-box"><h2>招待をリクエスト</h2><p>Marketing Mondaysは、マーケター、創業者、エージェンシーチームが集うシンガポールのコミュニティであり、週刊のYouTube番組です。意見ではなく実際の競合とオーディエンスのシグナルを、そしてそれを検証し合える仲間の場を提供します。</p><a class="btn" href="mailto:ask@mondays.marketing?subject=Marketing%20Mondays%3A%20invite%20request%20%28re%3A%20Vanity%20metrics%3A%20the%20numbers%20that%20make%20you%20feel%20good%29">ask@mondays.marketingにメール →</a></div>
+</div></article>
+<section class="alt"><div class="wrap"><h2>続けて読む</h2><div class="grid g3" style="margin-top:28px"><a class="post-card" href="../ai-role-in-creative-media-and-brand-marketing/index.html"><img src="../../../assets/img/a03-640.webp" alt="シンガポールの屋上の上空で、ニューラルな格子を通じて融合するクリエイティビティ、メディアシグナル、ブランドの3つの流れ" width="640" height="427" loading="lazy"><div class="b"><span class="tag">パネルの振り返り</span><h3>クリエイティブ、メディア、ブランドマーケティングにおけるAIの役割</h3><p>クリエイティブ、メディア、ブランドにおけるAIをテーマにしたMarketing Mondays Block71パネルから学んだこと、そしてAIが主導すべき領域を判断するために今も使っているフレームワーク。</p><div class="meta" style="margin-top:12px">2026年9月14日 · 7分で読めます</div></div></a><a class="post-card" href="../will-ai-replace-marketers/index.html"><img src="../../../assets/img/a05-640.webp" alt="ランタンを掲げたマーケターが、迫りくるロボットの影がただの道具にすぎないことを明らかにし、その後ろに仲間たちが立っている" width="640" height="427" loading="lazy"><div class="b"><span class="tag">キャリア</span><h3>AIはマーケターに取って代わるのか？シグナルに基づく答え</h3><p>シグナル解読：AIに取って代わられる不安の本質とは何か、価値が高まっているマーケティングスキルはどれか、そして先手を打つための30日プラン。</p><div class="meta" style="margin-top:12px">2026年8月24日 · 7分で読めます</div></div></a><a class="post-card" href="../marketer-imposter-syndrome-know-it-before-you-show-it/index.html"><img src="../../../assets/img/a06-640.webp" alt="鏡の前に立つ人物。鏡には、光るエビデンスカードで築かれたより強い自分が映り、それを多くの手が支えている" width="640" height="427" loading="lazy"><div class="b"><span class="tag">自信</span><h3>マーケターのインポスター症候群：見せる前に、知っておく</h3><p>シグナル解読：有能なマーケターの多くがなぜ自分を偽物のように感じるのか、そしてエビデンスと仲間が、取り繕う必要のない自信をどう築くのか。</p><div class="meta" style="margin-top:12px">2026年8月17日 · 7分で読めます</div></div></a></div></div></section>
+</main>
+<footer class="site"><div class="wrap">
+<div class="fgrid">
+<div><div style="margin-bottom:18px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 40" width="300" height="40" role="img" aria-label="Marketing Mondays ロゴ"><rect x="0" y="0" width="40" height="40" rx="10" fill="#2DBF9C"/><path d="M10 29V12l10 10 10-10v17" fill="none" stroke="#16201F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="50" y="28" font-family="'Montserrat', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="0"><tspan fill="#FFFFFF">Marketing</tspan><tspan fill="#2DBF9C"> Mondays</tspan></text></svg></div><p style="max-width:30em">意見を週ひとつのエビデンスあるシグナルに、不安を仲間に置き換える、シンガポールのマーケティングコミュニティ。</p>
+<p class="partner">テクノロジーパートナー <a href="https://somin.ai/" class="somin" style="text-decoration:none"><b>SO</b><i>MIN</i></a></p>
+<p><a class="btn" href="mailto:ask@mondays.marketing?subject=Marketing%20Mondays%3A%20invite%20request">招待をリクエスト</a></p>
+<p>メール <a href="mailto:ask@mondays.marketing">ask@mondays.marketing</a></p></div>
+<div><h4>Marketing Mondays</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="../../index.html#services">私たちの活動</a></li><li><a href="../index.html">インサイト</a></li><li><a href="../../index.html#about">概要</a></li><li><a href="../../index.html#faq">よくある質問</a></li><li><a href="../../../brand/index.html">ブランドガイドライン</a></li><li><a href="https://www.youtube.com/channel/UCGb61UzazCWgJ8H_1_oy5Kg" rel="noopener">YouTube @marketing-mondays</a></li><li><a href="https://mondays.marketing/feed.xml">RSS</a></li></ul></div>
+<div><h4>Powered by SOMIN</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="https://somin.ai/" rel="noopener">somin.ai</a></li><li><a href="https://somin.ai/cases-ai-marketing-strategy/" rel="noopener">導入事例</a></li><li><a href="https://somin.ai/somin-for-brands/" rel="noopener">ブランド向け</a></li><li><a href="https://somin.ai/somin-for-agencies/" rel="noopener">エージェンシー向け</a></li></ul></div>
+</div>
+<h4>ネットワーク</h4>
+<nav class="network" aria-label="姉妹企業"><a href="https://somonitor.ai/" rel="noopener">Somonitor<span>検証できる常時リスニング</span></a><a href="https://fmedia.marketing/" rel="noopener">FMedia<span>有料トラフィックを利益で測る</span></a><a href="https://agentc.marketing/" rel="noopener">AgentC<span>演奏するのはエージェント。指揮するのは人間。</span></a><a href="https://gpt3.marketing/" rel="noopener">GPT3 Marketing<span>6年にわたるAIコンテンツの技</span></a><a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing<span>推論モデルのために再設計されたマーケティング</span></a><a href="https://mindfuse.sg/" rel="noopener">Mindfuse<span>東南アジアの消費者心理と文化を読み解く</span></a><a href="https://snmrush.com/" rel="noopener">SNMRush<span>Search、Neural answers、Mentions。ひとつの勢いで。</span></a></nav>
+<p style="margin-top:40px;font-size:13px">© 2026 Marketing Mondays · mondays.marketing · シンガポール </p>
+</div></footer>
+</body></html>
