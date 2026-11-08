@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chỉ số phù phiếm: những con số khiến bạn thấy dễ chịu</title>
+<meta name="description" content="Giải mã tín hiệu: vì sao ROAS 400% có thể che giấu một khoản lỗ, cách nhận diện chỉ số phù phiếm trong báo cáo và nên đo gì thay thế.">
+<link rel="canonical" href="https://mondays.marketing/vi/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<link rel="alternate" hreflang="en-SG" href="https://mondays.marketing/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<link rel="alternate" hreflang="zh-Hans" href="https://mondays.marketing/zh-hans/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<link rel="alternate" hreflang="zh-Hant" href="https://mondays.marketing/zh-hant/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<link rel="alternate" hreflang="ja" href="https://mondays.marketing/ja/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<link rel="alternate" hreflang="ko" href="https://mondays.marketing/ko/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<link rel="alternate" hreflang="th" href="https://mondays.marketing/th/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<link rel="alternate" hreflang="vi" href="https://mondays.marketing/vi/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<link rel="alternate" hreflang="x-default" href="https://mondays.marketing/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#16201F">
+<meta property="og:site_name" content="Marketing Mondays">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Chỉ số phù phiếm: những con số khiến bạn thấy dễ chịu">
+<meta property="og:description" content="Chỉ số phù phiếm là những con số trông ấn tượng trong báo cáo nhưng không cho bạn biết marketing có mang lại tiền cho doanh nghiệp hay không.">
+<meta property="og:url" content="https://mondays.marketing/vi/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<meta property="og:image" content="https://mondays.marketing/assets/img/og/vanity-metrics-the-numbers-that-make-you-feel-good.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="Chỉ số phù phiếm: những con số khiến bạn thấy dễ chịu, Marketing Mondays">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:locale:alternate" content="en_SG">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="zh_TW">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="ko_KR">
+<meta property="og:locale:alternate" content="th_TH">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Chỉ số phù phiếm: những con số khiến bạn thấy dễ chịu">
+<meta name="twitter:description" content="Chỉ số phù phiếm là những con số trông ấn tượng trong báo cáo nhưng không cho bạn biết marketing có mang lại tiền cho doanh nghiệp hay không.">
+<meta name="twitter:image" content="https://mondays.marketing/assets/img/og/vanity-metrics-the-numbers-that-make-you-feel-good.jpg">
+<meta name="twitter:image:alt" content="Chỉ số phù phiếm: những con số khiến bạn thấy dễ chịu, Marketing Mondays">
+<meta name="application-name" content="Marketing Mondays"><meta name="apple-mobile-web-app-title" content="Marketing Mondays">
+<meta property="article:author" content="Marketing Mondays"><meta property="article:published_time" content="2026-09-07"><meta property="article:section" content="Đo lường"><meta name="keywords" content="vanity metrics, true ROAS, marketing measurement, agency reporting, profit metrics">
+<link rel="icon" href="../../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="../../../assets/img/icon-180.png">
+<link rel="manifest" href="../../../site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Blog Marketing Mondays" href="https://mondays.marketing/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Noto+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../../../assets/site.css">
+<style id="i18n-font">:root{--fh:'Montserrat','Noto Sans',system-ui,sans-serif;--fb:'Montserrat','Noto Sans',system-ui,sans-serif}</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YKL08XN61P"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-YKL08XN61P');document.addEventListener('click',function(e){var a=e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href')||'';if(/^mailto:/.test(h))return gtag('event','generate_lead',{method:'email',link_text:(a.textContent||'').trim().slice(0,80)});var m=h.match(/^https?:\/\/(?:www\.)?((?:cloud\.|share\.)?somin\.ai)(\/[^?#]*)?/);if(m)gtag('event','somin_click',{destination:m[1],path:(m[2]||'/').slice(0,80),link_text:(a.textContent||'').trim().slice(0,80)});});document.addEventListener('submit',function(e){var f=e.target;if(f&&f.tagName==='FORM')gtag('event','generate_lead',{method:'form',form_class:String(f.className||'').slice(0,40)});},true);</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"Chỉ số phù phiếm: những con số khiến bạn thấy dễ chịu","description":"Giải mã tín hiệu: vì sao ROAS 400% có thể che giấu một khoản lỗ, cách nhận diện chỉ số phù phiếm trong báo cáo và nên đo gì thay thế.","datePublished":"2026-09-07","dateModified":"2026-09-07","image":["https://mondays.marketing/assets/img/og/vanity-metrics-the-numbers-that-make-you-feel-good.jpg","https://mondays.marketing/assets/img/a04.webp"],"url":"https://mondays.marketing/vi/blog/vanity-metrics-the-numbers-that-make-you-feel-good/","mainEntityOfPage":"https://mondays.marketing/vi/blog/vanity-metrics-the-numbers-that-make-you-feel-good/","keywords":"vanity metrics, true ROAS, marketing measurement, agency reporting, profit metrics","articleSection":"Đo lường","inLanguage":"vi","wordCount":940,"author":{"@type":"Organization","name":"Marketing Mondays editorial team","url":"https://mondays.marketing/"},"publisher":{"@id":"https://mondays.marketing/#org"},"mentions":[{"@type":"Organization","name":"SOMIN","url":"https://somin.ai/"}],"speakable":{"@type":"SpeakableSpecification","cssSelector":[".answer"]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Marketing Mondays","item":"https://mondays.marketing/vi/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://mondays.marketing/vi/blog/"},{"@type":"ListItem","position":3,"name":"Chỉ số phù phiếm: những con số khiến bạn thấy dễ chịu","item":"https://mondays.marketing/vi/blog/vanity-metrics-the-numbers-that-make-you-feel-good/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Chỉ số phù phiếm trong marketing là gì?","acceptedAnswer":{"@type":"Answer","text":"Một con số trông ấn tượng nhưng không cho thấy marketing có cải thiện kết quả kinh doanh hay không, chẳng hạn độ phủ, lượt thích hoặc ROAS của nền tảng được báo cáo mà không tính chi phí và hàng hoàn trả."}},{"@type":"Question","name":"ROAS có phải là chỉ số phù phiếm không?","acceptedAnswer":{"@type":"Answer","text":"Có thể. ROAS của nền tảng bỏ qua giá vốn sản phẩm, hàng hoàn trả, giảm giá, phí và tính gia tăng. Nếu dùng riêng lẻ, nó có thể cho thấy lợi nhuận cao ở một chiến dịch đang lỗ."}},{"@type":"Question","name":"Nên thay thế chỉ số phù phiếm bằng gì?","acceptedAnswer":{"@type":"Answer","text":"Lợi nhuận góp sau chi phí marketing, chi phí có được khách hàng so với giá trị vòng đời, mức tăng gia tăng, tỷ trọng trong các cuộc trò chuyện liên quan và điểm chấm nội dung sáng tạo trước khi chi tiêu."}}]},{"@type":"Organization","@id":"https://mondays.marketing/#org","name":"Marketing Mondays","url":"https://mondays.marketing/","logo":"https://mondays.marketing/brand/logo.svg","email":"ask@mondays.marketing","description":"Marketing Mondays is a Singapore community of marketers and a weekly YouTube show. Each episode decodes one real signal, such as a competitor's play, a shift in what audiences want or a winning campaign, and turns it into a clear takeaway. It was founded and is hosted by SOMIN, its technology partner and the data engine behind every episode.","slogan":"One real signal, decoded every Monday","areaServed":"Singapore and Asia-Pacific","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"},"contactPoint":{"@type":"ContactPoint","email":"ask@mondays.marketing","contactType":"sales"},"knowsAbout":["2027 marketing team","AEO","AI Overviews","AI agents marketing","AI answers","AI brand marketing","AI in creative","AI marketing jobs","AI media planning","AI skills marketers","Block71 Singapore","Gen Z marketing","Marketing Mondays YouTube","agency reporting","audience segmentation","audience signals","brand differentiation","brand narrative","brand visibility AI","competitor signals","customer journey","evidence-based marketing","future of marketing jobs","generative AI content","generative engine optimisation"],"memberOf":{"@type":"Organization","name":"SOMIN partner network","url":"https://somin.ai/"},"parentOrganization":{"@type":"Organization","name":"SOMIN","url":"https://somin.ai/"},"sameAs":["https://www.youtube.com/channel/UCGb61UzazCWgJ8H_1_oy5Kg"]}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Chuyển đến nội dung</a>
+<header class="site"><div class="wrap">
+<a class="logo" href="../../index.html" aria-label="Trang chủ Marketing Mondays"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 40" width="300" height="40" role="img" aria-label="Logo Marketing Mondays"><rect x="0" y="0" width="40" height="40" rx="10" fill="#2DBF9C"/><path d="M10 29V12l10 10 10-10v17" fill="none" stroke="#16201F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="50" y="28" font-family="'Montserrat', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="0"><tspan fill="#16201F">Marketing</tspan><tspan fill="#2DBF9C"> Mondays</tspan></text></svg></a>
+<nav aria-label="Chính"><a href="../../index.html#work">Dự án</a><a href="../../index.html#services">Buổi gặp</a><a href="../index.html">Tập phát sóng</a><a href="../../index.html#faq">Câu hỏi thường gặp</a><a href="../../../brand/index.html">Thương hiệu</a><a class="btn" href="mailto:ask@mondays.marketing?subject=Marketing%20Mondays%3A%20invite%20request">Đăng ký nhận lời mời</a><!--i18n:langsw--><details class="langsw" translate="no"><summary aria-label="Ngôn ngữ: Tiếng Việt"><span>VI</span></summary><ul><li><a href="../../../blog/vanity-metrics-the-numbers-that-make-you-feel-good/index.html" hreflang="en-SG" lang="en-SG">English</a></li><li><a href="../../../zh-hans/blog/vanity-metrics-the-numbers-that-make-you-feel-good/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="../../../zh-hant/blog/vanity-metrics-the-numbers-that-make-you-feel-good/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="../../../ja/blog/vanity-metrics-the-numbers-that-make-you-feel-good/index.html" hreflang="ja" lang="ja">日本語</a></li><li><a href="../../../ko/blog/vanity-metrics-the-numbers-that-make-you-feel-good/index.html" hreflang="ko" lang="ko">한국어</a></li><li><a href="../../../th/blog/vanity-metrics-the-numbers-that-make-you-feel-good/index.html" hreflang="th" lang="th">ไทย</a></li><li><a href="index.html" hreflang="vi" lang="vi" aria-current="page">Tiếng Việt</a></li></ul></details><script>document.addEventListener('click',function(e){var a=e.target.closest('.langsw a[hreflang]');if(a&&typeof gtag==='function')gtag('event','language_switch',{language_from:document.documentElement.lang,language_to:a.getAttribute('hreflang'),page_path:location.pathname});var d=document.querySelector('.langsw[open]');if(d&&!d.contains(e.target))d.removeAttribute('open');});</script><!--/i18n:langsw--></nav>
+</div></header>
+<main id="main">
+<article class="post"><div class="wrap narrow head"><nav class="crumbs" aria-label="Đường dẫn"><a href="../../index.html">Marketing Mondays</a> / <a href="../index.html">Blog</a> / Đo lường</nav>
+<h1 style="margin-top:18px">Chỉ số phù phiếm: những con số khiến bạn thấy dễ chịu</h1><p class="meta">7/9/2026 · 7 phút đọc · Ban biên tập Marketing Mondays · <a href="#faq">Câu hỏi thường gặp</a></p></div>
+<div class="wrap" style="max-width:1000px"><figure class="cover" style="margin:0 0 40px"><img src="../../../assets/img/a04.webp" alt="Một biểu đồ cột bằng thủy tinh cao và rỗng bên cạnh một chồng xu nhỏ, đặc, phát sáng đổ bóng dài" width="1536" height="1024" fetchpriority="high"></figure></div>
+<div class="wrap narrow prose"><p class="answer">Chỉ số phù phiếm là những con số trông ấn tượng trong báo cáo nhưng không cho bạn biết marketing có mang lại tiền cho doanh nghiệp hay không. Độ phủ, lượt thích, tăng trưởng người theo dõi thô và thậm chí ROAS tiêu đề đều có thể thuộc loại này. Phép thử rất đơn giản: nếu con số tăng mà lợi nhuận không tăng, đó là chỉ số phù phiếm đối với quyết định đó.</p>
+<p>Marketer nào cũng từng trình bày một slide mà họ thầm không chắc chắn. Một con số độ phủ lớn. ROAS 400%. Một đợt tăng vọt tương tác. Cả phòng gật đầu, bạn chuyển sang phần tiếp theo, nhưng một giọng nói nhỏ hỏi liệu những điều đó có ý nghĩa gì không. Tín hiệu Marketing Mondays này nói về giọng nói đó, và vì sao bạn nên lắng nghe nó.</p>
+<h2>Vì sao chỉ số phù phiếm vẫn tồn tại?</h2>
+<p>Vì chúng bảo vệ con người. Khi bạn chịu áp lực phải chứng minh giá trị của marketing, và nhiều marketer cảm thấy không được đánh giá đúng, một con số lớn có cảm giác như tấm khiên. Các agency được thưởng cho những báo cáo trông đẹp. Các nền tảng báo cáo những con số tô điểm cho không gian quảng cáo của chính họ. Không ai trong chuỗi có lý do mạnh mẽ để đặt câu hỏi khó chịu.</p>
+<p>Dữ liệu lắng nghe trong cộng đồng marketing cho thấy rõ hậu quả: một khoảng trống lợi nhuận. Các thương hiệu tối ưu ROAS và CPA trong khi bỏ qua hàng hoàn trả, phí, giảm giá và chi phí thực để có được một khách hàng. Các agency chạy theo những chỉ số họ kiểm soát được thay vì kết quả mà khách hàng quan tâm. Ai cũng cảm thấy bận rộn và thành công cho đến khi bộ phận tài chính hỏi tiền đã đi đâu.</p>
+<h2>Làm sao ROAS 400% lại có thể lỗ?</h2>
+<p>Đây là một ví dụ cụ thể với các con số minh họa. Một thương hiệu chi S$10,000 cho quảng cáo và nền tảng ghi nhận S$40,000 doanh thu. Đó là ROAS 400%, và trông rất tuyệt.</p>
+<ul>
+<li>Giá vốn sản phẩm trên S$40,000 doanh số: S$18,000.</li>
+<li>Hàng hoàn trả và hoàn tiền: S$4,000 doanh thu bị đảo ngược.</li>
+<li>Giảm giá dùng để chốt đơn: S$3,000.</li>
+<li>Phí thanh toán và phí nền tảng: S$1,500.</li>
+<li>Phí agency và công cụ: S$3,000.</li>
+<li>Doanh số lẽ ra vẫn xảy ra kể cả không có quảng cáo: một phần nào đó, thường không xác định được.</li>
+</ul>
+<p>Cộng tất cả lại và đóng góp thực từ S$10,000 đó có thể gần bằng không hoặc âm. Con số 400% là thật với tư cách một chỉ số của nền tảng. Nhưng nó là chỉ số phù phiếm với tư cách một con số kinh doanh.</p>
+<h2>Chỉ số nào thường là phù phiếm, và chỉ số nào hữu ích?</h2>
+<h3>Thường là phù phiếm, tùy vào quyết định</h3>
+<ul>
+<li>Lượt hiển thị và độ phủ mà không có thước đo về sự chú ý hay khả năng ghi nhớ.</li>
+<li>Lượt thích và số người theo dõi mà không gắn với ý định.</li>
+<li>ROAS do nền tảng báo cáo mà không tính chi phí, hàng hoàn trả hay tính gia tăng.</li>
+<li>Khối lượng nội dung đã phát hành.</li>
+</ul>
+<h3>Thường hữu ích</h3>
+<ul>
+<li>Lợi nhuận góp sau chi phí marketing.</li>
+<li>Chi phí có được khách hàng mới so với giá trị vòng đời.</li>
+<li>Mức tăng gia tăng từ các thử nghiệm có kiểm soát.</li>
+<li>Tỷ trọng trong những cuộc trò chuyện quan trọng của ngành hàng.</li>
+<li>Điểm chấm nội dung sáng tạo trước khi chi tiêu giúp dự đoán hiệu quả.</li>
+</ul>
+<h2>Checklist: kiểm tra báo cáo tiếp theo của bạn trong 15 phút</h2>
+<ol>
+<li>Với mỗi chỉ số trên trang, hãy ghi lại quyết định mà nó hỗ trợ. Nếu không ghi được, hãy bỏ nó.</li>
+<li>Tìm một con số do chính nền tảng đang được trả tiền báo cáo. Yêu cầu một con số tương đương độc lập.</li>
+<li>Kiểm tra xem hàng hoàn trả, giảm giá và phí đã được trừ ở đâu đó chưa.</li>
+<li>Hỏi điều gì sẽ xảy ra nếu không có khoản chi đó.</li>
+<li>Thêm một tín hiệu hướng tới tương lai: những gì khán giả đang nói bây giờ sẽ ảnh hưởng đến tháng sau.</li>
+</ol>
+<h2>Thay vào đó bạn nên đo gì?</h2>
+<p>Quan điểm của chúng tôi là việc đo lường nên bắt đầu trước khi tiền được chi. Thời điểm tốt nhất để tránh một kết quả phù phiếm là trước khi bạn cam kết ngân sách cho một nội dung sáng tạo vốn không bao giờ chuyển đổi được. SOMIN, nền tảng nghiên cứu khán giả bằng AI đứng sau Marketing Mondays, chấm điểm khả năng được nhấp của nội dung sáng tạo trước khi chi tiêu thông qua <a href="https://somin.ai/somin-paid-media/" rel="noopener">paid media intelligence</a>, và <a href="https://somin.ai/somin-reporting/" rel="noopener">các công cụ báo cáo</a> của SOMIN gắn kết quả với tín hiệu khán giả thay vì chỉ các con số của nền tảng. <a href="https://somin.ai/agencies-analytic-partners-case-study/" rel="noopener">Case study Analytic Partners</a> đáng đọc để hiểu một agency đặt đo lường làm trọng tâm suy nghĩ về điều này như thế nào.</p>
+<p>Về phía lắng nghe, share of voice chỉ có ý nghĩa nếu đó là tỷ trọng trong đúng những cuộc trò chuyện. Ứng dụng chị em của chúng tôi, <a href="https://somonitor.ai/" rel="noopener">Somonitor</a>, tập trung vào tín hiệu hội thoại và cảnh báo sớm, thay vì số lượt nhắc đến thô, vì chính lý do đó.</p>
+<h2>Làm sao nêu vấn đề này mà không có vẻ như đang công kích chính công việc của mình?</h2>
+<p>Đây là phần khiến mọi người im lặng. Thách thức một chỉ số mà đội bạn đang ăn mừng có cảm giác rủi ro. Ba cách tiếp cận sau sẽ giúp ích.</p>
+<ul>
+<li><strong>Trình bày như một sự nâng cấp.</strong> "Con số này tốt. Đây là cách chúng ta làm cho nó đáng tin với bộ phận tài chính."</li>
+<li><strong>Mời một đồng nghiệp.</strong> Một người bên ngoài công ty từng thực hiện cùng sự chuyển đổi sẽ tăng thêm độ tin cậy, đó là một lý do các cộng đồng như Marketing Mondays tồn tại.</li>
+<li><strong>Bắt đầu nhỏ.</strong> Sửa một báo cáo, một chiến dịch, một chỉ số. Cho thấy sự khác biệt.</li>
+</ul>
+<h2>Bạn nên làm gì vào thứ Hai này?</h2><p>Lấy báo cáo gần nhất bạn đã trình bày và khoanh tròn con số duy nhất mà bạn tự hào nhất. Sau đó đặt ba câu hỏi về nó. Những chi phí nào đứng sau nó mà báo cáo không thể hiện? Con số đó sẽ là bao nhiêu nếu hoàn toàn không chi tiêu? Và nó thực sự đã thay đổi quyết định nào? Nếu bạn không trả lời được câu thứ ba, bạn đã tìm thấy chỉ số phù phiếm đầu tiên của mình. Tháng sau hãy thay nó bằng một thước đo gắn với lợi nhuận góp, và giải thích lý do với các bên liên quan. Theo kinh nghiệm của chúng tôi, đội tài chính phản hồi tốt với một marketer chủ động đưa ra một con số khắt khe hơn trước khi được hỏi. Đó là một trong những cách nhanh nhất để chuyển từ việc phải bảo vệ marketing sang được tin tưởng giao thêm ngân sách. Hãy mang những gì bạn phát hiện đến cộng đồng; sẽ có người đã từng chiến đấu cùng trận chiến với cùng nền tảng.</p><h2>Định nghĩa</h2>
+<ul>
+<li><strong>ROAS:</strong> lợi nhuận trên chi tiêu quảng cáo, thường là doanh thu được ghi nhận cho quảng cáo chia cho chi tiêu quảng cáo.</li>
+<li><strong>True ROAS hay profit ROAS:</strong> cùng ý tưởng nhưng dùng lợi nhuận góp sau chi phí, hàng hoàn trả và phí.</li>
+<li><strong>Tính gia tăng (incrementality):</strong> phần kết quả lẽ ra sẽ không xảy ra nếu không có hoạt động marketing.</li>
+</ul>
+<p>Về khía cạnh con người của cùng vấn đề, hãy xem <a href="../the-autopsy-of-a-lost-sale/index.html">mổ xẻ một thương vụ bị mất</a>, nơi một chỉ số đẹp đã che giấu lý do thực sự khiến người mua rời đi.</p>
+<blockquote>Chạy theo ảo ảnh khiến chúng ta không thấy những cơ hội thực sự. Con số khiến bạn thấy dễ chịu hiếm khi là con số giúp doanh nghiệp tốt hơn.</blockquote>
+<section id="faq" style="padding:40px 0 0"><h2>Câu hỏi thường gặp</h2><details><summary>Chỉ số phù phiếm trong marketing là gì?</summary><p>Một con số trông ấn tượng nhưng không cho thấy marketing có cải thiện kết quả kinh doanh hay không, chẳng hạn độ phủ, lượt thích hoặc ROAS của nền tảng được báo cáo mà không tính chi phí và hàng hoàn trả.</p></details><details><summary>ROAS có phải là chỉ số phù phiếm không?</summary><p>Có thể. ROAS của nền tảng bỏ qua giá vốn sản phẩm, hàng hoàn trả, giảm giá, phí và tính gia tăng. Nếu dùng riêng lẻ, nó có thể cho thấy lợi nhuận cao ở một chiến dịch đang lỗ.</p></details><details><summary>Nên thay thế chỉ số phù phiếm bằng gì?</summary><p>Lợi nhuận góp sau chi phí marketing, chi phí có được khách hàng so với giá trị vòng đời, mức tăng gia tăng, tỷ trọng trong các cuộc trò chuyện liên quan và điểm chấm nội dung sáng tạo trước khi chi tiêu.</p></details></section>
+<div class="cta-box"><h2>Đăng ký nhận lời mời</h2><p>Marketing Mondays là cộng đồng marketer, nhà sáng lập và đội ngũ agency tại Singapore, cùng một chương trình YouTube hằng tuần. Tín hiệu thực về đối thủ và khán giả, không phải ý kiến, và một căn phòng đồng nghiệp để kiểm chứng chúng.</p><a class="btn" href="mailto:ask@mondays.marketing?subject=Marketing%20Mondays%3A%20invite%20request%20%28re%3A%20Vanity%20metrics%3A%20the%20numbers%20that%20make%20you%20feel%20good%29">Gửi email tới ask@mondays.marketing →</a></div>
+</div></article>
+<section class="alt"><div class="wrap"><h2>Đọc tiếp</h2><div class="grid g3" style="margin-top:28px"><a class="post-card" href="../ai-role-in-creative-media-and-brand-marketing/index.html"><img src="../../../assets/img/a03-640.webp" alt="Ba dòng chảy sáng tạo, tín hiệu truyền thông và thương hiệu hòa vào nhau qua một mạng lưới thần kinh phía trên các mái nhà Singapore" width="640" height="427" loading="lazy"><div class="b"><span class="tag">Tóm tắt tọa đàm</span><h3>Vai trò của AI trong marketing sáng tạo, truyền thông và thương hiệu</h3><p>Những gì chúng tôi học được từ tọa đàm Marketing Mondays tại Block71 về AI trong sáng tạo, truyền thông và thương hiệu, cùng framework chúng tôi vẫn dùng để quyết định khi nào AI dẫn dắt.</p><div class="meta" style="margin-top:12px">14/9/2026 · 7 phút đọc</div></div></a><a class="post-card" href="../will-ai-replace-marketers/index.html"><img src="../../../assets/img/a05-640.webp" alt="Một marketer cầm đèn lồng soi rõ rằng cái bóng robot khổng lồ chỉ là một công cụ, các đồng nghiệp đứng phía sau" width="640" height="427" loading="lazy"><div class="b"><span class="tag">Sự nghiệp</span><h3>AI có thay thế marketer không? Câu trả lời dựa trên tín hiệu</h3><p>Giải mã tín hiệu: nỗi sợ bị AI thay thế thực chất là về điều gì, những kỹ năng marketing nào đang tăng giá trị, và kế hoạch 30 ngày để đi trước.</p><div class="meta" style="margin-top:12px">24/8/2026 · 7 phút đọc</div></div></a><a class="post-card" href="../marketer-imposter-syndrome-know-it-before-you-show-it/index.html"><img src="../../../assets/img/a06-640.webp" alt="Một người đứng trước gương phản chiếu một phiên bản mạnh mẽ hơn được dựng từ những thẻ bằng chứng phát sáng, được nhiều bàn tay nâng đỡ" width="640" height="427" loading="lazy"><div class="b"><span class="tag">Sự tự tin</span><h3>Hội chứng kẻ mạo danh ở marketer: hiểu rõ trước khi trình bày</h3><p>Giải mã tín hiệu: vì sao nhiều marketer giỏi lại cảm thấy mình là kẻ mạo danh, và cách bằng chứng cùng đồng nghiệp xây dựng sự tự tin không cần giả vờ.</p><div class="meta" style="margin-top:12px">17/8/2026 · 7 phút đọc</div></div></a></div></div></section>
+</main>
+<footer class="site"><div class="wrap">
+<div class="fgrid">
+<div><div style="margin-bottom:18px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 40" width="300" height="40" role="img" aria-label="Logo Marketing Mondays"><rect x="0" y="0" width="40" height="40" rx="10" fill="#2DBF9C"/><path d="M10 29V12l10 10 10-10v17" fill="none" stroke="#16201F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="50" y="28" font-family="'Montserrat', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="0"><tspan fill="#FFFFFF">Marketing</tspan><tspan fill="#2DBF9C"> Mondays</tspan></text></svg></div><p style="max-width:30em">Cộng đồng marketing Singapore thay ý kiến bằng một tín hiệu có bằng chứng mỗi tuần, và thay nỗi sợ bằng những người đồng nghiệp.</p>
+<p class="partner">Đối tác công nghệ <a href="https://somin.ai/" class="somin" style="text-decoration:none"><b>SO</b><i>MIN</i></a></p>
+<p><a class="btn" href="mailto:ask@mondays.marketing?subject=Marketing%20Mondays%3A%20invite%20request">Đăng ký nhận lời mời</a></p>
+<p>Gửi email <a href="mailto:ask@mondays.marketing">ask@mondays.marketing</a></p></div>
+<div><h4>Marketing Mondays</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="../../index.html#services">Chúng tôi làm gì</a></li><li><a href="../index.html">Insight</a></li><li><a href="../../index.html#about">Giới thiệu</a></li><li><a href="../../index.html#faq">Câu hỏi thường gặp</a></li><li><a href="../../../brand/index.html">Hướng dẫn thương hiệu</a></li><li><a href="https://www.youtube.com/channel/UCGb61UzazCWgJ8H_1_oy5Kg" rel="noopener">YouTube @marketing-mondays</a></li><li><a href="https://mondays.marketing/feed.xml">RSS</a></li></ul></div>
+<div><h4>Vận hành bởi SOMIN</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="https://somin.ai/" rel="noopener">somin.ai</a></li><li><a href="https://somin.ai/cases-ai-marketing-strategy/" rel="noopener">Case study</a></li><li><a href="https://somin.ai/somin-for-brands/" rel="noopener">Dành cho thương hiệu</a></li><li><a href="https://somin.ai/somin-for-agencies/" rel="noopener">Dành cho agency</a></li></ul></div>
+</div>
+<h4>Mạng lưới</h4>
+<nav class="network" aria-label="Công ty chị em"><a href="https://somonitor.ai/" rel="noopener">Somonitor<span>Lắng nghe liên tục, có thể kiểm chứng</span></a><a href="https://fmedia.marketing/" rel="noopener">FMedia<span>Traffic trả phí, đo bằng lợi nhuận</span></a><a href="https://agentc.marketing/" rel="noopener">AgentC<span>Agent thực thi. Con người chỉ huy.</span></a><a href="https://gpt3.marketing/" rel="noopener">GPT3 Marketing<span>Sáu năm kinh nghiệm làm nội dung bằng AI</span></a><a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing<span>Marketing được thiết kế lại cho các mô hình suy luận</span></a><a href="https://mindfuse.sg/" rel="noopener">Mindfuse<span>Tâm lý người tiêu dùng và văn hóa, được giải mã cho Đông Nam Á</span></a><a href="https://snmrush.com/" rel="noopener">SNMRush<span>Search, Neural answers, Mentions. Một cú bứt tốc.</span></a></nav>
+<p style="margin-top:40px;font-size:13px">© 2026 Marketing Mondays · mondays.marketing · Singapore. </p>
+</div></footer>
+</body></html>
