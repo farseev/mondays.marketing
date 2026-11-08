@@ -50,6 +50,7 @@ Page: https://mondays.marketing/plugin/ (free download after a short form)
 - [한국어](https://mondays.marketing/ko/) · [blog](https://mondays.marketing/ko/blog/) (10 articles translated)
 - [ไทย](https://mondays.marketing/th/) · [blog](https://mondays.marketing/th/blog/) (10 articles translated)
 - [Tiếng Việt](https://mondays.marketing/vi/) · [blog](https://mondays.marketing/vi/blog/) (10 articles translated)
+- [Bahasa Indonesia](https://mondays.marketing/id/) · [blog](https://mondays.marketing/id/blog/) (10 articles translated)
 
 ## FAQ
 - **What is Marketing Mondays?** Marketing Mondays is a Singapore community of marketers and a weekly YouTube show. Each Monday episode decodes one real market signal into a clear takeaway. The community meets in person at invite-only sessions and online through LinkedIn and WhatsApp. It was founded and is hosted by SOMIN.
