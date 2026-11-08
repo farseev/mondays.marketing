@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>허영 지표: 기분만 좋게 만드는 숫자</title>
+<meta name="description" content="시그널 해독: 400% ROAS가 왜 손실을 가릴 수 있는지, 보고서에서 허영 지표를 찾아내는 방법, 그리고 대신 측정해야 할 것.">
+<link rel="canonical" href="https://mondays.marketing/ko/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<link rel="alternate" hreflang="en-SG" href="https://mondays.marketing/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<link rel="alternate" hreflang="zh-Hans" href="https://mondays.marketing/zh-hans/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<link rel="alternate" hreflang="zh-Hant" href="https://mondays.marketing/zh-hant/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<link rel="alternate" hreflang="ja" href="https://mondays.marketing/ja/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<link rel="alternate" hreflang="ko" href="https://mondays.marketing/ko/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<link rel="alternate" hreflang="x-default" href="https://mondays.marketing/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#16201F">
+<meta property="og:site_name" content="Marketing Mondays">
+<meta property="og:type" content="website">
+<meta property="og:title" content="허영 지표: 기분만 좋게 만드는 숫자">
+<meta property="og:description" content="허영 지표란 리포트에서는 인상적으로 보이지만 마케팅이 비즈니스에 돈을 벌어 주었는지는 알려 주지 않는 숫자입니다.">
+<meta property="og:url" content="https://mondays.marketing/ko/blog/vanity-metrics-the-numbers-that-make-you-feel-good/">
+<meta property="og:image" content="https://mondays.marketing/assets/img/og/vanity-metrics-the-numbers-that-make-you-feel-good.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="허영 지표: 기분만 좋게 만드는 숫자, Marketing Mondays">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:locale:alternate" content="en_SG">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="zh_TW">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="허영 지표: 기분만 좋게 만드는 숫자">
+<meta name="twitter:description" content="허영 지표란 리포트에서는 인상적으로 보이지만 마케팅이 비즈니스에 돈을 벌어 주었는지는 알려 주지 않는 숫자입니다.">
+<meta name="twitter:image" content="https://mondays.marketing/assets/img/og/vanity-metrics-the-numbers-that-make-you-feel-good.jpg">
+<meta name="twitter:image:alt" content="허영 지표: 기분만 좋게 만드는 숫자, Marketing Mondays">
+<meta name="application-name" content="Marketing Mondays"><meta name="apple-mobile-web-app-title" content="Marketing Mondays">
+<meta property="article:author" content="Marketing Mondays"><meta property="article:published_time" content="2026-09-07"><meta property="article:section" content="측정"><meta name="keywords" content="vanity metrics, true ROAS, marketing measurement, agency reporting, profit metrics">
+<link rel="icon" href="../../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="../../../assets/img/icon-180.png">
+<link rel="manifest" href="../../../site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Marketing Mondays 블로그" href="https://mondays.marketing/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Noto+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../../../assets/site.css">
+<style id="i18n-font">:root{--fh:'Montserrat','Noto Sans KR',system-ui,sans-serif;--fb:'Montserrat','Noto Sans KR',system-ui,sans-serif}</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YKL08XN61P"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-YKL08XN61P');document.addEventListener('click',function(e){var a=e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href')||'';if(/^mailto:/.test(h))return gtag('event','generate_lead',{method:'email',link_text:(a.textContent||'').trim().slice(0,80)});var m=h.match(/^https?:\/\/(?:www\.)?((?:cloud\.|share\.)?somin\.ai)(\/[^?#]*)?/);if(m)gtag('event','somin_click',{destination:m[1],path:(m[2]||'/').slice(0,80),link_text:(a.textContent||'').trim().slice(0,80)});});document.addEventListener('submit',function(e){var f=e.target;if(f&&f.tagName==='FORM')gtag('event','generate_lead',{method:'form',form_class:String(f.className||'').slice(0,40)});},true);</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"허영 지표: 기분만 좋게 만드는 숫자","description":"시그널 해독: 400% ROAS가 왜 손실을 가릴 수 있는지, 보고서에서 허영 지표를 찾아내는 방법, 그리고 대신 측정해야 할 것.","datePublished":"2026-09-07","dateModified":"2026-09-07","image":["https://mondays.marketing/assets/img/og/vanity-metrics-the-numbers-that-make-you-feel-good.jpg","https://mondays.marketing/assets/img/a04.webp"],"url":"https://mondays.marketing/ko/blog/vanity-metrics-the-numbers-that-make-you-feel-good/","mainEntityOfPage":"https://mondays.marketing/ko/blog/vanity-metrics-the-numbers-that-make-you-feel-good/","keywords":"vanity metrics, true ROAS, marketing measurement, agency reporting, profit metrics","articleSection":"측정","inLanguage":"ko","wordCount":940,"author":{"@type":"Organization","name":"Marketing Mondays editorial team","url":"https://mondays.marketing/"},"publisher":{"@id":"https://mondays.marketing/#org"},"mentions":[{"@type":"Organization","name":"SOMIN","url":"https://somin.ai/"}],"speakable":{"@type":"SpeakableSpecification","cssSelector":[".answer"]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Marketing Mondays","item":"https://mondays.marketing/ko/"},{"@type":"ListItem","position":2,"name":"블로그","item":"https://mondays.marketing/ko/blog/"},{"@type":"ListItem","position":3,"name":"허영 지표: 기분만 좋게 만드는 숫자","item":"https://mondays.marketing/ko/blog/vanity-metrics-the-numbers-that-make-you-feel-good/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"마케팅에서 허영 지표란 무엇입니까?","acceptedAnswer":{"@type":"Answer","text":"인상적으로 보이지만 마케팅이 비즈니스 성과를 개선했는지는 보여 주지 않는 숫자입니다. 도달 범위, 좋아요, 비용과 반품을 반영하지 않고 보고된 플랫폼 ROAS 등이 있습니다."}},{"@type":"Question","name":"ROAS는 허영 지표입니까?","acceptedAnswer":{"@type":"Answer","text":"그럴 수 있습니다. 플랫폼 ROAS는 제품 원가, 반품, 할인, 수수료, 증분 효과를 무시합니다. 단독으로 쓰면 손실을 내는 캠페인에서도 높은 수익률을 보여 줄 수 있습니다."}},{"@type":"Question","name":"허영 지표는 무엇으로 대체해야 합니까?","acceptedAnswer":{"@type":"Answer","text":"마케팅 비용 차감 후 공헌 이익, 생애 가치 대비 획득 비용, 증분 리프트, 관련 대화에서의 점유율, 그리고 집행 전 크리에이티브 점수입니다."}}]},{"@type":"Organization","@id":"https://mondays.marketing/#org","name":"Marketing Mondays","url":"https://mondays.marketing/","logo":"https://mondays.marketing/brand/logo.svg","email":"ask@mondays.marketing","description":"Marketing Mondays is a Singapore community of marketers and a weekly YouTube show. Each episode decodes one real signal, such as a competitor's play, a shift in what audiences want or a winning campaign, and turns it into a clear takeaway. It was founded and is hosted by SOMIN, its technology partner and the data engine behind every episode.","slogan":"One real signal, decoded every Monday","areaServed":"Singapore and Asia-Pacific","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"},"contactPoint":{"@type":"ContactPoint","email":"ask@mondays.marketing","contactType":"sales"},"knowsAbout":["2027 marketing team","AEO","AI Overviews","AI agents marketing","AI answers","AI brand marketing","AI in creative","AI marketing jobs","AI media planning","AI skills marketers","Block71 Singapore","Gen Z marketing","Marketing Mondays YouTube","agency reporting","audience segmentation","audience signals","brand differentiation","brand narrative","brand visibility AI","competitor signals","customer journey","evidence-based marketing","future of marketing jobs","generative AI content","generative engine optimisation"],"memberOf":{"@type":"Organization","name":"SOMIN partner network","url":"https://somin.ai/"},"parentOrganization":{"@type":"Organization","name":"SOMIN","url":"https://somin.ai/"},"sameAs":["https://www.youtube.com/channel/UCGb61UzazCWgJ8H_1_oy5Kg"]}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<header class="site"><div class="wrap">
+<a class="logo" href="../../index.html" aria-label="Marketing Mondays 홈"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 40" width="300" height="40" role="img" aria-label="Marketing Mondays 로고"><rect x="0" y="0" width="40" height="40" rx="10" fill="#2DBF9C"/><path d="M10 29V12l10 10 10-10v17" fill="none" stroke="#16201F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="50" y="28" font-family="'Montserrat', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="0"><tspan fill="#16201F">Marketing</tspan><tspan fill="#2DBF9C"> Mondays</tspan></text></svg></a>
+<nav aria-label="메인"><a href="../../index.html#work">사례</a><a href="../../index.html#services">세션</a><a href="../index.html">에피소드</a><a href="../../index.html#faq">FAQ</a><a href="../../../brand/index.html">브랜드</a><a class="btn" href="mailto:ask@mondays.marketing?subject=Marketing%20Mondays%3A%20invite%20request">초대 요청</a><!--i18n:langsw--><details class="langsw" translate="no"><summary aria-label="언어: 한국어"><span>한국어</span></summary><ul><li><a href="../../../blog/vanity-metrics-the-numbers-that-make-you-feel-good/index.html" hreflang="en-SG" lang="en-SG">English</a></li><li><a href="../../../zh-hans/blog/vanity-metrics-the-numbers-that-make-you-feel-good/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="../../../zh-hant/blog/vanity-metrics-the-numbers-that-make-you-feel-good/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="../../../ja/blog/vanity-metrics-the-numbers-that-make-you-feel-good/index.html" hreflang="ja" lang="ja">日本語</a></li><li><a href="index.html" hreflang="ko" lang="ko" aria-current="page">한국어</a></li></ul></details><script>document.addEventListener('click',function(e){var a=e.target.closest('.langsw a[hreflang]');if(a&&typeof gtag==='function')gtag('event','language_switch',{language_from:document.documentElement.lang,language_to:a.getAttribute('hreflang'),page_path:location.pathname});var d=document.querySelector('.langsw[open]');if(d&&!d.contains(e.target))d.removeAttribute('open');});</script><!--/i18n:langsw--></nav>
+</div></header>
+<main id="main">
+<article class="post"><div class="wrap narrow head"><nav class="crumbs" aria-label="이동 경로"><a href="../../index.html">Marketing Mondays</a> / <a href="../index.html">블로그</a> / 측정</nav>
+<h1 style="margin-top:18px">허영 지표: 기분만 좋게 만드는 숫자</h1><p class="meta">2026년 9월 7일 · 7분 읽기 · Marketing Mondays 편집팀 · <a href="#faq">FAQ</a></p></div>
+<div class="wrap" style="max-width:1000px"><figure class="cover" style="margin:0 0 40px"><img src="../../../assets/img/a04.webp" alt="길게 그림자를 드리운 작고 단단한 빛나는 동전 더미 옆에 서 있는, 속이 빈 높은 유리 막대 그래프" width="1536" height="1024" fetchpriority="high"></figure></div>
+<div class="wrap narrow prose"><p class="answer">허영 지표란 리포트에서는 인상적으로 보이지만 마케팅이 비즈니스에 돈을 벌어 주었는지는 알려 주지 않는 숫자입니다. 도달 범위, 좋아요, 단순 팔로워 증가, 심지어 겉으로 드러난 ROAS도 모두 해당될 수 있습니다. 판별법은 간단합니다. 숫자는 올랐는데 수익은 오르지 않았다면, 그 결정에 있어 그것은 허영 지표였습니다.</p>
+<p>모든 마케터는 속으로 확신하지 못한 슬라이드를 발표해 본 적이 있습니다. 큰 도달 수치. 400%의 ROAS. 참여율의 급증. 회의실은 고개를 끄덕이고 다음으로 넘어가지만, 작은 목소리가 그중 의미 있는 것이 있었는지 묻습니다. 이번 Marketing Mondays 시그널은 그 목소리, 그리고 왜 그 목소리에 귀 기울여야 하는지에 관한 것입니다.</p>
+<h2>허영 지표는 왜 살아남을까요?</h2>
+<p>사람들을 보호해 주기 때문입니다. 마케팅의 가치를 증명해야 한다는 압박을 받을 때, 그리고 많은 마케터가 제대로 평가받지 못한다고 느낄 때, 큰 숫자는 방패처럼 느껴집니다. 에이전시는 보기 좋은 리포트로 보상받습니다. 플랫폼은 자기 인벤토리를 돋보이게 하는 숫자를 보고합니다. 이 사슬의 누구에게도 불편한 질문을 던질 강한 이유가 없습니다.</p>
+<p>마케팅 커뮤니티 전반의 리스닝 데이터는 그 결과를 분명히 보여 줍니다. 수익성의 격차입니다. 브랜드는 반품, 수수료, 할인, 그리고 고객 획득의 실제 비용을 무시한 채 ROAS와 CPA를 최적화합니다. 에이전시는 클라이언트가 중요하게 여기는 성과가 아니라 자신이 통제할 수 있는 지표를 좇습니다. 재무팀이 돈이 어디로 갔느냐고 묻기 전까지는 모두가 바쁘고 성공적이라고 느낍니다.</p>
+<h2>400% ROAS가 어떻게 손실을 낼 수 있을까요?</h2>
+<p>예시용 숫자로 계산해 보겠습니다. 한 브랜드가 광고에 S$10,000를 쓰고, 플랫폼은 매출 S$40,000를 귀속시킵니다. ROAS 400%로, 아주 훌륭해 보입니다.</p>
+<ul>
+<li>매출 S$40,000에 대한 제품 원가: S$18,000.</li>
+<li>반품 및 환불: 매출 S$4,000 취소.</li>
+<li>판매 성사를 위해 쓴 할인: S$3,000.</li>
+<li>결제 및 플랫폼 수수료: S$1,500.</li>
+<li>에이전시 및 툴 비용: S$3,000.</li>
+<li>광고가 없었어도 일어났을 판매: 일정 비율, 흔히 알 수 없음.</li>
+</ul>
+<p>이를 모두 합하면 그 S$10,000가 실제로 기여한 몫은 0에 가깝거나 마이너스일 수 있습니다. 400%는 플랫폼 숫자로서는 사실이었습니다. 비즈니스 숫자로서는 허영 지표였습니다.</p>
+<h2>어떤 지표가 대개 허영 지표이고, 어떤 지표가 유용할까요?</h2>
+<h3>결정에 따라 허영 지표인 경우가 많은 것</h3>
+<ul>
+<li>주목도나 기억에 대한 측정 없는 노출 수와 도달 범위.</li>
+<li>구매 의도와 연결되지 않은 좋아요와 팔로워 수.</li>
+<li>비용, 반품, 증분 효과를 반영하지 않은 플랫폼 보고 ROAS.</li>
+<li>내보낸 콘텐츠의 양.</li>
+</ul>
+<h3>대개 유용한 것</h3>
+<ul>
+<li>마케팅 비용 차감 후 공헌 이익.</li>
+<li>고객 생애 가치 대비 신규 고객 획득 비용.</li>
+<li>통제된 테스트에서 측정한 증분 리프트.</li>
+<li>카테고리 내 중요한 대화에서의 점유율.</li>
+<li>성과를 예측하는 집행 전 크리에이티브 점수.</li>
+</ul>
+<h2>체크리스트: 다음 리포트를 15분 안에 점검하기</h2>
+<ol>
+<li>페이지의 모든 지표마다 그것이 뒷받침하는 결정을 적으십시오. 적을 수 없다면 빼십시오.</li>
+<li>비용을 받는 플랫폼이 보고한 숫자 하나를 찾으십시오. 독립적인 대응 지표를 요청하십시오.</li>
+<li>반품, 할인, 수수료가 어딘가에서 차감되었는지 확인하십시오.</li>
+<li>비용을 쓰지 않았다면 어떤 일이 일어났을지 물어보십시오.</li>
+<li>미래를 내다보는 시그널 하나를 추가하십시오. 다음 달에 영향을 줄, 지금 오디언스가 하는 말입니다.</li>
+</ol>
+<h2>대신 무엇을 측정해야 할까요?</h2>
+<p>저희의 입장은 측정이 돈을 쓰기 전에 시작되어야 한다는 것입니다. 허영 지표의 결과를 피하기 가장 좋은 때는 결코 전환되지 않았을 크리에이티브에 예산을 투입하기 전입니다. Marketing Mondays를 뒷받침하는 AI 오디언스 리서치 플랫폼 SOMIN은 <a href="https://somin.ai/somin-paid-media/" rel="noopener">유료 미디어 인텔리전스</a>로 집행 전에 크리에이티브의 클릭 가능성을 점수화하며, <a href="https://somin.ai/somin-reporting/" rel="noopener">리포팅 도구</a>는 결과를 플랫폼 숫자만이 아니라 오디언스 시그널과 연결합니다. 측정 중심 에이전시가 이를 어떻게 생각하는지 알고 싶다면 <a href="https://somin.ai/agencies-analytic-partners-case-study/" rel="noopener">Analytic Partners 사례 연구</a>를 읽어 볼 만합니다.</p>
+<p>리스닝 측면에서 점유율(share of voice)은 올바른 대화에서의 점유율일 때만 의미가 있습니다. 자매 앱 <a href="https://somonitor.ai/" rel="noopener">Somonitor</a>가 단순 언급 수가 아니라 대화 시그널과 조기 경보에 집중하는 이유가 바로 그것입니다.</p>
+<h2>자신의 작업을 공격하는 것처럼 보이지 않으면서 이 문제를 어떻게 제기할까요?</h2>
+<p>사람들이 침묵하게 되는 것이 바로 이 부분입니다. 팀이 자축해 온 지표에 이의를 제기하는 것은 위험하게 느껴집니다. 세 가지 접근이 도움이 됩니다.</p>
+<ul>
+<li><strong>업그레이드로 제시하십시오.</strong> "이 숫자는 좋습니다. 재무팀도 믿을 수 있게 만드는 방법은 이렇습니다."</li>
+<li><strong>동료를 데려오십시오.</strong> 같은 전환을 해 본 회사 밖의 누군가가 신뢰성을 더해 줍니다. Marketing Mondays 같은 커뮤니티가 존재하는 이유 중 하나입니다.</li>
+<li><strong>작게 시작하십시오.</strong> 리포트 하나, 캠페인 하나, 지표 하나를 고치십시오. 차이를 보여 주십시오.</li>
+</ul>
+<h2>이번 월요일에는 무엇을 해야 할까요?</h2><p>가장 최근에 발표한 리포트를 꺼내 가장 자랑스러웠던 숫자 하나에 동그라미를 치십시오. 그리고 세 가지를 물어보십시오. 리포트에 드러나지 않은 어떤 비용이 그 뒤에 있습니까? 비용을 전혀 쓰지 않았다면 그 숫자는 어땠을까요? 그리고 그것이 실제로 바꾼 결정은 무엇입니까? 세 번째 질문에 답할 수 없다면 첫 번째 허영 지표를 찾은 것입니다. 다음 달에는 공헌 이익과 연결된 지표로 바꾸고, 이해관계자에게 그 이유를 설명하십시오. 저희 경험상 재무팀은 요청받기 전에 스스로 더 엄격한 숫자를 내놓는 마케터에게 좋은 반응을 보입니다. 마케팅을 방어하는 입장에서 더 많은 예산을 믿고 맡겨지는 입장으로 옮겨 가는 가장 빠른 방법 중 하나입니다. 발견한 것을 커뮤니티에 가져오십시오. 누군가는 이미 같은 플랫폼과 같은 싸움을 해 보았을 것입니다.</p><h2>용어 정의</h2>
+<ul>
+<li><strong>ROAS:</strong> 광고 지출 대비 수익. 대개 광고에 귀속된 매출을 광고비로 나눈 값.</li>
+<li><strong>실질 ROAS 또는 수익 ROAS:</strong> 같은 개념을 비용, 반품, 수수료 차감 후의 공헌 이익으로 계산한 것.</li>
+<li><strong>증분 효과:</strong> 마케팅이 없었다면 일어나지 않았을 결과의 비율.</li>
+</ul>
+<p>같은 문제의 인간적인 측면은 <a href="../the-autopsy-of-a-lost-sale/index.html">놓친 거래의 부검</a>을 참고하십시오. 보기 좋은 지표가 구매자가 떠난 진짜 이유를 가렸던 사례입니다.</p>
+<blockquote>환상을 좇으면 진짜 기회를 보지 못합니다. 기분을 좋게 만드는 숫자가 비즈니스를 더 좋게 만드는 숫자인 경우는 드뭅니다.</blockquote>
+<section id="faq" style="padding:40px 0 0"><h2>자주 묻는 질문</h2><details><summary>마케팅에서 허영 지표란 무엇입니까?</summary><p>인상적으로 보이지만 마케팅이 비즈니스 성과를 개선했는지는 보여 주지 않는 숫자입니다. 도달 범위, 좋아요, 비용과 반품을 반영하지 않고 보고된 플랫폼 ROAS 등이 있습니다.</p></details><details><summary>ROAS는 허영 지표입니까?</summary><p>그럴 수 있습니다. 플랫폼 ROAS는 제품 원가, 반품, 할인, 수수료, 증분 효과를 무시합니다. 단독으로 쓰면 손실을 내는 캠페인에서도 높은 수익률을 보여 줄 수 있습니다.</p></details><details><summary>허영 지표는 무엇으로 대체해야 합니까?</summary><p>마케팅 비용 차감 후 공헌 이익, 생애 가치 대비 획득 비용, 증분 리프트, 관련 대화에서의 점유율, 그리고 집행 전 크리에이티브 점수입니다.</p></details></section>
+<div class="cta-box"><h2>초대 요청</h2><p>Marketing Mondays는 마케터, 창업자, 에이전시 팀이 모인 싱가포르 커뮤니티이자 주간 YouTube 쇼입니다. 의견이 아닌 실제 경쟁사·오디언스 시그널, 그리고 이를 함께 검증할 동료들이 있습니다.</p><a class="btn" href="mailto:ask@mondays.marketing?subject=Marketing%20Mondays%3A%20invite%20request%20%28re%3A%20Vanity%20metrics%3A%20the%20numbers%20that%20make%20you%20feel%20good%29">ask@mondays.marketing으로 이메일 보내기 →</a></div>
+</div></article>
+<section class="alt"><div class="wrap"><h2>계속 읽기</h2><div class="grid g3" style="margin-top:28px"><a class="post-card" href="../ai-role-in-creative-media-and-brand-marketing/index.html"><img src="../../../assets/img/a03-640.webp" alt="싱가포르 옥상 위 신경망 격자를 통해 합쳐지는 크리에이티브, 미디어 시그널, 브랜드의 세 갈래 흐름" width="640" height="427" loading="lazy"><div class="b"><span class="tag">패널 요약</span><h3>크리에이티브, 미디어, 브랜드 마케팅에서 AI의 역할</h3><p>크리에이티브, 미디어, 브랜드 분야의 AI를 주제로 한 Marketing Mondays Block71 패널에서 배운 것, 그리고 AI가 주도할 영역을 정할 때 지금도 사용하는 프레임워크.</p><div class="meta" style="margin-top:12px">2026년 9월 14일 · 7분 읽기</div></div></a><a class="post-card" href="../will-ai-replace-marketers/index.html"><img src="../../../assets/img/a05-640.webp" alt="랜턴을 든 마케터가 거대한 로봇 그림자가 단지 도구일 뿐임을 비추고, 뒤에는 동료들이 서 있는 모습" width="640" height="427" loading="lazy"><div class="b"><span class="tag">커리어</span><h3>AI가 마케터를 대체할까? 시그널 기반의 답</h3><p>시그널 해독: AI에 대체될 것이라는 두려움의 진짜 의미, 가치가 높아지는 마케팅 역량, 그리고 앞서 나가기 위한 30일 계획.</p><div class="meta" style="margin-top:12px">2026년 8월 24일 · 7분 읽기</div></div></a><a class="post-card" href="../marketer-imposter-syndrome-know-it-before-you-show-it/index.html"><img src="../../../assets/img/a06-640.webp" alt="빛나는 근거 카드로 만들어진 더 강한 자신을 비추는 거울 앞에 선 사람과, 그를 받쳐 주는 많은 손" width="640" height="427" loading="lazy"><div class="b"><span class="tag">자신감</span><h3>마케터의 가면 증후군: 보여 주기 전에 먼저 알아야 합니다</h3><p>시그널 해독: 유능한 마케터들이 왜 그토록 자신을 가짜처럼 느끼는지, 그리고 근거와 동료가 어떻게 꾸밀 필요 없는 자신감을 만드는지.</p><div class="meta" style="margin-top:12px">2026년 8월 17일 · 7분 읽기</div></div></a></div></div></section>
+</main>
+<footer class="site"><div class="wrap">
+<div class="fgrid">
+<div><div style="margin-bottom:18px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 40" width="300" height="40" role="img" aria-label="Marketing Mondays 로고"><rect x="0" y="0" width="40" height="40" rx="10" fill="#2DBF9C"/><path d="M10 29V12l10 10 10-10v17" fill="none" stroke="#16201F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="50" y="28" font-family="'Montserrat', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="0"><tspan fill="#FFFFFF">Marketing</tspan><tspan fill="#2DBF9C"> Mondays</tspan></text></svg></div><p style="max-width:30em">의견 대신 일주일에 하나의 근거 있는 시그널을, 두려움 대신 동료를 주는 싱가포르 마케팅 커뮤니티.</p>
+<p class="partner">기술 파트너 <a href="https://somin.ai/" class="somin" style="text-decoration:none"><b>SO</b><i>MIN</i></a></p>
+<p><a class="btn" href="mailto:ask@mondays.marketing?subject=Marketing%20Mondays%3A%20invite%20request">초대 요청</a></p>
+<p>이메일 <a href="mailto:ask@mondays.marketing">ask@mondays.marketing</a></p></div>
+<div><h4>Marketing Mondays</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="../../index.html#services">하는 일</a></li><li><a href="../index.html">인사이트</a></li><li><a href="../../index.html#about">소개</a></li><li><a href="../../index.html#faq">FAQ</a></li><li><a href="../../../brand/index.html">브랜드 가이드라인</a></li><li><a href="https://www.youtube.com/channel/UCGb61UzazCWgJ8H_1_oy5Kg" rel="noopener">YouTube @marketing-mondays</a></li><li><a href="https://mondays.marketing/feed.xml">RSS</a></li></ul></div>
+<div><h4>Powered by SOMIN</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="https://somin.ai/" rel="noopener">somin.ai</a></li><li><a href="https://somin.ai/cases-ai-marketing-strategy/" rel="noopener">사례 연구</a></li><li><a href="https://somin.ai/somin-for-brands/" rel="noopener">브랜드용</a></li><li><a href="https://somin.ai/somin-for-agencies/" rel="noopener">에이전시용</a></li></ul></div>
+</div>
+<h4>네트워크</h4>
+<nav class="network" aria-label="자매 회사"><a href="https://somonitor.ai/" rel="noopener">Somonitor<span>검증할 수 있는 상시 리스닝</span></a><a href="https://fmedia.marketing/" rel="noopener">FMedia<span>수익으로 측정하는 유료 트래픽</span></a><a href="https://agentc.marketing/" rel="noopener">AgentC<span>에이전트가 연주하고, 사람이 지휘합니다.</span></a><a href="https://gpt3.marketing/" rel="noopener">GPT3 Marketing<span>6년간 쌓아 온 AI 콘텐츠 역량</span></a><a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing<span>추론 모델 시대에 맞게 재설계한 마케팅</span></a><a href="https://mindfuse.sg/" rel="noopener">Mindfuse<span>동남아시아를 위해 해독한 소비자 심리와 문화</span></a><a href="https://snmrush.com/" rel="noopener">SNMRush<span>Search, Neural answers, Mentions. 하나의 러시.</span></a></nav>
+<p style="margin-top:40px;font-size:13px">© 2026 Marketing Mondays · mondays.marketing · 싱가포르. </p>
+</div></footer>
+</body></html>
