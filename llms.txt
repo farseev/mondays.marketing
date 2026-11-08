@@ -45,6 +45,7 @@ Page: https://mondays.marketing/plugin/ (free download after a short form)
 ## Other languages
 
 - [简体中文](https://mondays.marketing/zh-hans/) · [blog](https://mondays.marketing/zh-hans/blog/) (10 articles translated)
+- [繁體中文](https://mondays.marketing/zh-hant/) · [blog](https://mondays.marketing/zh-hant/blog/) (10 articles translated)
 - [日本語](https://mondays.marketing/ja/) · [blog](https://mondays.marketing/ja/blog/) (10 articles translated)
 
 ## FAQ

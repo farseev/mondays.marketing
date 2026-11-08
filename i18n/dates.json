@@ -102,5 +102,57 @@
 "/zh-hans/plugin/": [
 "d0f906b830",
 "2026-11-08"
+],
+"/zh-hant/": [
+"264060396e",
+"2026-11-08"
+],
+"/zh-hant/blog/": [
+"1009a8e6e8",
+"2026-11-08"
+],
+"/zh-hant/blog/ai-role-in-creative-media-and-brand-marketing/": [
+"57a7617d72",
+"2026-11-08"
+],
+"/zh-hant/blog/escaping-the-sea-of-sameness-with-ai/": [
+"f00d5d2702",
+"2026-11-08"
+],
+"/zh-hant/blog/marketer-imposter-syndrome-know-it-before-you-show-it/": [
+"2890d66a24",
+"2026-11-08"
+],
+"/zh-hant/blog/media-foresight-retail-media-and-gen-z/": [
+"64cf8d5eee",
+"2026-11-08"
+],
+"/zh-hant/blog/the-2027-marketing-team-smaller-faster-or-obsolete/": [
+"cf22bc7116",
+"2026-11-08"
+],
+"/zh-hant/blog/the-autopsy-of-a-lost-sale/": [
+"4650a327ac",
+"2026-11-08"
+],
+"/zh-hant/blog/the-one-signal-method/": [
+"17a25078f3",
+"2026-11-08"
+],
+"/zh-hant/blog/vanity-metrics-the-numbers-that-make-you-feel-good/": [
+"930d1245da",
+"2026-11-08"
+],
+"/zh-hant/blog/when-ai-answers-replace-the-search-results-page/": [
+"0b6d1365d1",
+"2026-11-08"
+],
+"/zh-hant/blog/will-ai-replace-marketers/": [
+"fd5d6a9c89",
+"2026-11-08"
+],
+"/zh-hant/plugin/": [
+"4534e1fa9d",
+"2026-11-08"
 ]
 }
